@@ -1,0 +1,383 @@
+{
+  "pages/saas.html": {
+    "problems": [],
+    "empty": {
+      "required": 1,
+      "invalid": 1,
+      "messages": [
+        {
+          "id": "signup-email",
+          "text": "This field is required.",
+          "visible": true,
+          "described": true
+        }
+      ],
+      "focusedId": "signup-email",
+      "firstInvalidId": "signup-email",
+      "status": "Please fix the highlighted field and try again.",
+      "calls": 0
+    },
+    "badEmail": {
+      "text": "Enter an email address like name@example.com.",
+      "invalid": "true",
+      "focused": "",
+      "calls": 0
+    },
+    "valid": {
+      "calls": 1,
+      "payload": {
+        "form": "signup-form",
+        "page": "saas.html",
+        "email": "visitor@example.com"
+      },
+      "status": "DemoNothing was sent or stored: this form is not connected to a provider yet. See docs/guide/04-connect-a-form.md.",
+      "demoPill": true,
+      "emailAfter": "",
+      "invalidLeft": 0,
+      "newRequests": []
+    },
+    "doubleSubmitCalls": 1,
+    "failure": {
+      "status": "Sorry, something went wrong and nothing was sent. Please try again.",
+      "emailKept": "visitor@example.com"
+    },
+    "consoleProblems": []
+  },
+  "pages/app.html": {
+    "problems": [],
+    "empty": {
+      "required": 1,
+      "invalid": 1,
+      "messages": [
+        {
+          "id": "dl-email",
+          "text": "This field is required.",
+          "visible": true,
+          "described": true
+        }
+      ],
+      "focusedId": "dl-email",
+      "firstInvalidId": "dl-email",
+      "status": "Please fix the highlighted field and try again.",
+      "calls": 0
+    },
+    "badEmail": {
+      "text": "Enter an email address like name@example.com.",
+      "invalid": "true",
+      "focused": "",
+      "calls": 0
+    },
+    "valid": {
+      "calls": 1,
+      "payload": {
+        "form": "dl-form",
+        "page": "app.html",
+        "email": "visitor@example.com"
+      },
+      "status": "DemoNothing was sent or stored: this form is not connected to a provider yet. See docs/guide/04-connect-a-form.md.",
+      "demoPill": true,
+      "emailAfter": "",
+      "invalidLeft": 0,
+      "newRequests": []
+    },
+    "doubleSubmitCalls": 1,
+    "failure": {
+      "status": "Sorry, something went wrong and nothing was sent. Please try again.",
+      "emailKept": "visitor@example.com"
+    },
+    "consoleProblems": []
+  },
+  "pages/launch.html": {
+    "problems": [],
+    "empty": {
+      "required": 1,
+      "invalid": 1,
+      "messages": [
+        {
+          "id": "notify-email",
+          "text": "This field is required.",
+          "visible": true,
+          "described": true
+        }
+      ],
+      "focusedId": "notify-email",
+      "firstInvalidId": "notify-email",
+      "status": "Please fix the highlighted field and try again.",
+      "calls": 0
+    },
+    "badEmail": {
+      "text": "Enter an email address like name@example.com.",
+      "invalid": "true",
+      "focused": "",
+      "calls": 0
+    },
+    "valid": {
+      "calls": 1,
+      "payload": {
+        "form": "notify-form",
+        "page": "launch.html",
+        "email": "visitor@example.com"
+      },
+      "status": "DemoNothing was sent or stored: this form is not connected to a provider yet. See docs/guide/04-connect-a-form.md.",
+      "demoPill": true,
+      "emailAfter": "",
+      "invalidLeft": 0,
+      "newRequests": []
+    },
+    "doubleSubmitCalls": 1,
+    "failure": {
+      "status": "Sorry, something went wrong and nothing was sent. Please try again.",
+      "emailKept": "visitor@example.com"
+    },
+    "consoleProblems": []
+  },
+  "pages/event.html": {
+    "problems": [],
+    "empty": {
+      "required": 2,
+      "invalid": 2,
+      "messages": [
+        {
+          "id": "reg-email",
+          "text": "This field is required.",
+          "visible": true,
+          "described": true
+        },
+        {
+          "id": "reg-name",
+          "text": "This field is required.",
+          "visible": true,
+          "described": true
+        }
+      ],
+      "focusedId": "reg-email",
+      "firstInvalidId": "reg-email",
+      "status": "Please fix the highlighted fields and try again.",
+      "calls": 0
+    },
+    "badEmail": {
+      "text": "Enter an email address like name@example.com.",
+      "invalid": "true",
+      "focused": "",
+      "calls": 0
+    },
+    "valid": {
+      "calls": 1,
+      "payload": {
+        "form": "reg-form",
+        "page": "event.html",
+        "email": "visitor@example.com",
+        "name": "Alex Sample"
+      },
+      "status": "DemoNothing was sent or stored: this form is not connected to a provider yet. See docs/guide/04-connect-a-form.md.",
+      "demoPill": true,
+      "emailAfter": "",
+      "invalidLeft": 0,
+      "newRequests": []
+    },
+    "doubleSubmitCalls": 1,
+    "failure": {
+      "status": "Sorry, something went wrong and nothing was sent. Please try again.",
+      "emailKept": "visitor@example.com"
+    },
+    "consoleProblems": []
+  },
+  "pages/waitlist.html": {
+    "problems": [],
+    "empty": {
+      "required": 1,
+      "invalid": 1,
+      "messages": [
+        {
+          "id": "wl-email",
+          "text": "This field is required.",
+          "visible": true,
+          "described": true
+        }
+      ],
+      "focusedId": "wl-email",
+      "firstInvalidId": "wl-email",
+      "status": "Please fix the highlighted field and try again.",
+      "calls": 0
+    },
+    "badEmail": {
+      "text": "Enter an email address like name@example.com.",
+      "invalid": "true",
+      "focused": "",
+      "calls": 0
+    },
+    "valid": {
+      "calls": 1,
+      "payload": {
+        "form": "wl-form",
+        "page": "waitlist.html",
+        "email": "visitor@example.com"
+      },
+      "status": "DemoNothing was sent or stored: this form is not connected to a provider yet. See docs/guide/04-connect-a-form.md.",
+      "demoPill": true,
+      "emailAfter": "",
+      "invalidLeft": 0,
+      "newRequests": []
+    },
+    "doubleSubmitCalls": 1,
+    "failure": {
+      "status": "Sorry, something went wrong and nothing was sent. Please try again.",
+      "emailKept": "visitor@example.com"
+    },
+    "consoleProblems": []
+  },
+  "pages/webinar.html": {
+    "problems": [],
+    "empty": {
+      "required": 2,
+      "invalid": 2,
+      "messages": [
+        {
+          "id": "wb-email",
+          "text": "This field is required.",
+          "visible": true,
+          "described": true
+        },
+        {
+          "id": "wb-name",
+          "text": "This field is required.",
+          "visible": true,
+          "described": true
+        }
+      ],
+      "focusedId": "wb-email",
+      "firstInvalidId": "wb-email",
+      "status": "Please fix the highlighted fields and try again.",
+      "calls": 0
+    },
+    "badEmail": {
+      "text": "Enter an email address like name@example.com.",
+      "invalid": "true",
+      "focused": "",
+      "calls": 0
+    },
+    "valid": {
+      "calls": 1,
+      "payload": {
+        "form": "wb-form",
+        "page": "webinar.html",
+        "email": "visitor@example.com",
+        "name": "Alex Sample",
+        "reminder": true
+      },
+      "status": "DemoNothing was sent or stored: this form is not connected to a provider yet. See docs/guide/04-connect-a-form.md.",
+      "demoPill": true,
+      "emailAfter": "",
+      "invalidLeft": 0,
+      "newRequests": []
+    },
+    "doubleSubmitCalls": 1,
+    "failure": {
+      "status": "Sorry, something went wrong and nothing was sent. Please try again.",
+      "emailKept": "visitor@example.com"
+    },
+    "consoleProblems": []
+  },
+  "pages/agency.html": {
+    "problems": [],
+    "empty": {
+      "required": 3,
+      "invalid": 3,
+      "messages": [
+        {
+          "id": "ag-email",
+          "text": "This field is required.",
+          "visible": true,
+          "described": true
+        },
+        {
+          "id": "ag-name",
+          "text": "This field is required.",
+          "visible": true,
+          "described": true
+        },
+        {
+          "id": "ag-message",
+          "text": "This field is required.",
+          "visible": true,
+          "described": true
+        }
+      ],
+      "focusedId": "ag-email",
+      "firstInvalidId": "ag-email",
+      "status": "Please fix the highlighted fields and try again.",
+      "calls": 0
+    },
+    "badEmail": {
+      "text": "Enter an email address like name@example.com.",
+      "invalid": "true",
+      "focused": "ag-email",
+      "calls": 0
+    },
+    "valid": {
+      "calls": 1,
+      "payload": {
+        "form": "ag-form",
+        "page": "agency.html",
+        "email": "visitor@example.com",
+        "name": "Alex Sample",
+        "message": "A short message about the project."
+      },
+      "status": "DemoNothing was sent or stored: this form is not connected to a provider yet. See docs/guide/04-connect-a-form.md.",
+      "demoPill": true,
+      "emailAfter": "",
+      "invalidLeft": 0,
+      "newRequests": []
+    },
+    "doubleSubmitCalls": 1,
+    "failure": {
+      "status": "Sorry, something went wrong and nothing was sent. Please try again.",
+      "emailKept": "visitor@example.com"
+    },
+    "consoleProblems": []
+  },
+  "pages/pricing.html": {
+    "problems": [],
+    "empty": {
+      "required": 1,
+      "invalid": 1,
+      "messages": [
+        {
+          "id": "st-email",
+          "text": "This field is required.",
+          "visible": true,
+          "described": true
+        }
+      ],
+      "focusedId": "st-email",
+      "firstInvalidId": "st-email",
+      "status": "Please fix the highlighted field and try again.",
+      "calls": 0
+    },
+    "badEmail": {
+      "text": "Enter an email address like name@example.com.",
+      "invalid": "true",
+      "focused": "",
+      "calls": 0
+    },
+    "valid": {
+      "calls": 1,
+      "payload": {
+        "form": "st-form",
+        "page": "pricing.html",
+        "email": "visitor@example.com"
+      },
+      "status": "DemoNothing was sent or stored: this form is not connected to a provider yet. See docs/guide/04-connect-a-form.md.",
+      "demoPill": true,
+      "emailAfter": "",
+      "invalidLeft": 0,
+      "newRequests": []
+    },
+    "doubleSubmitCalls": 1,
+    "failure": {
+      "status": "Sorry, something went wrong and nothing was sent. Please try again.",
+      "emailKept": "visitor@example.com"
+    },
+    "consoleProblems": []
+  }
+}

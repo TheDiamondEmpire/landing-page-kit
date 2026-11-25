@@ -1,0 +1,510 @@
+{
+  "zip": {
+    "name": "dist/landing-page-kit-0.1.0.zip",
+    "files": 50,
+    "bytes": 75064,
+    "sha256": "09fe579d4e24ac942d860691c2fcedfc1e599a1cd13de5bd5baee05b241fee31",
+    "secondBuildSha256": "09fe579d4e24ac942d860691c2fcedfc1e599a1cd13de5bd5baee05b241fee31",
+    "deterministic": true
+  },
+  "entries": [
+    "landing-page-kit/START-HERE.md",
+    "landing-page-kit/assets/agency-work-1.svg",
+    "landing-page-kit/assets/agency-work-2.svg",
+    "landing-page-kit/assets/agency-work-3.svg",
+    "landing-page-kit/assets/app-screen-1.svg",
+    "landing-page-kit/assets/app-screen-2.svg",
+    "landing-page-kit/assets/app-screen-3.svg",
+    "landing-page-kit/assets/event-venue.svg",
+    "landing-page-kit/assets/favicon.svg",
+    "landing-page-kit/assets/hero-agency.svg",
+    "landing-page-kit/assets/hero-app.svg",
+    "landing-page-kit/assets/hero-launch.svg",
+    "landing-page-kit/assets/hero-pricing.svg",
+    "landing-page-kit/assets/hero-saas.svg",
+    "landing-page-kit/assets/hero-waitlist.svg",
+    "landing-page-kit/assets/hero-webinar.svg",
+    "landing-page-kit/assets/launch-light.svg",
+    "landing-page-kit/css/base.css",
+    "landing-page-kit/css/pages/agency.css",
+    "landing-page-kit/css/pages/app.css",
+    "landing-page-kit/css/pages/event.css",
+    "landing-page-kit/css/pages/index.css",
+    "landing-page-kit/css/pages/launch.css",
+    "landing-page-kit/css/pages/pricing.css",
+    "landing-page-kit/css/pages/saas.css",
+    "landing-page-kit/css/pages/waitlist.css",
+    "landing-page-kit/css/pages/webinar.css",
+    "landing-page-kit/css/sections.css",
+    "landing-page-kit/css/tokens.css",
+    "landing-page-kit/docs/guide/01-start-here.md",
+    "landing-page-kit/docs/guide/02-rebranding.md",
+    "landing-page-kit/docs/guide/03-section-patterns.md",
+    "landing-page-kit/docs/guide/04-connect-a-form.md",
+    "landing-page-kit/docs/guide/05-analytics-opt-in.md",
+    "landing-page-kit/docs/guide/06-before-you-publish.md",
+    "landing-page-kit/index.html",
+    "landing-page-kit/js/billing.js",
+    "landing-page-kit/js/faq.js",
+    "landing-page-kit/js/form.js",
+    "landing-page-kit/js/menu.js",
+    "landing-page-kit/js/submit-adapter.js",
+    "landing-page-kit/js/theme.js",
+    "landing-page-kit/pages/agency.html",
+    "landing-page-kit/pages/app.html",
+    "landing-page-kit/pages/event.html",
+    "landing-page-kit/pages/launch.html",
+    "landing-page-kit/pages/pricing.html",
+    "landing-page-kit/pages/saas.html",
+    "landing-page-kit/pages/waitlist.html",
+    "landing-page-kit/pages/webinar.html"
+  ],
+  "entriesMatchSource": true,
+  "forbiddenEntries": [],
+  "hasLicenseFile": false,
+  "fileProtocol": {
+    "load": {
+      "pages/saas.html": {
+        "mode": "file",
+        "console": [],
+        "pageErrors": [],
+        "failed": [],
+        "badResponses": [],
+        "requestCount": 12,
+        "thirdPartyRequests": 0,
+        "observed": [
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-saas.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/saas.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/saas.html"
+        ],
+        "expectedFromSource": [
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-saas.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/saas.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/saas.html"
+        ],
+        "matchesSource": true,
+        "jsEnhanced": true,
+        "bodyBackground": "rgb(255, 255, 255)"
+      },
+      "pages/app.html": {
+        "mode": "file",
+        "console": [],
+        "pageErrors": [],
+        "failed": [],
+        "badResponses": [],
+        "requestCount": 15,
+        "thirdPartyRequests": 0,
+        "observed": [
+          "<root>/assets/app-screen-1.svg",
+          "<root>/assets/app-screen-2.svg",
+          "<root>/assets/app-screen-3.svg",
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-app.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/app.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/app.html"
+        ],
+        "expectedFromSource": [
+          "<root>/assets/app-screen-1.svg",
+          "<root>/assets/app-screen-2.svg",
+          "<root>/assets/app-screen-3.svg",
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-app.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/app.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/app.html"
+        ],
+        "matchesSource": true,
+        "jsEnhanced": true,
+        "bodyBackground": "rgb(251, 254, 253)"
+      },
+      "pages/launch.html": {
+        "mode": "file",
+        "console": [],
+        "pageErrors": [],
+        "failed": [],
+        "badResponses": [],
+        "requestCount": 13,
+        "thirdPartyRequests": 0,
+        "observed": [
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-launch.svg",
+          "<root>/assets/launch-light.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/launch.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/launch.html"
+        ],
+        "expectedFromSource": [
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-launch.svg",
+          "<root>/assets/launch-light.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/launch.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/launch.html"
+        ],
+        "matchesSource": true,
+        "jsEnhanced": true,
+        "bodyBackground": "rgb(255, 253, 248)"
+      },
+      "pages/event.html": {
+        "mode": "file",
+        "console": [],
+        "pageErrors": [],
+        "failed": [],
+        "badResponses": [],
+        "requestCount": 12,
+        "thirdPartyRequests": 0,
+        "observed": [
+          "<root>/assets/event-venue.svg",
+          "<root>/assets/favicon.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/event.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/event.html"
+        ],
+        "expectedFromSource": [
+          "<root>/assets/event-venue.svg",
+          "<root>/assets/favicon.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/event.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/event.html"
+        ],
+        "matchesSource": true,
+        "jsEnhanced": true,
+        "bodyBackground": "rgb(255, 255, 255)"
+      },
+      "pages/waitlist.html": {
+        "mode": "file",
+        "console": [],
+        "pageErrors": [],
+        "failed": [],
+        "badResponses": [],
+        "requestCount": 12,
+        "thirdPartyRequests": 0,
+        "observed": [
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-waitlist.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/waitlist.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/waitlist.html"
+        ],
+        "expectedFromSource": [
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-waitlist.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/waitlist.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/waitlist.html"
+        ],
+        "matchesSource": true,
+        "jsEnhanced": true,
+        "bodyBackground": "rgb(251, 251, 247)"
+      },
+      "pages/webinar.html": {
+        "mode": "file",
+        "console": [],
+        "pageErrors": [],
+        "failed": [],
+        "badResponses": [],
+        "requestCount": 12,
+        "thirdPartyRequests": 0,
+        "observed": [
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-webinar.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/webinar.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/webinar.html"
+        ],
+        "expectedFromSource": [
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-webinar.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/webinar.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/webinar.html"
+        ],
+        "matchesSource": true,
+        "jsEnhanced": true,
+        "bodyBackground": "rgb(255, 255, 255)"
+      },
+      "pages/agency.html": {
+        "mode": "file",
+        "console": [],
+        "pageErrors": [],
+        "failed": [],
+        "badResponses": [],
+        "requestCount": 15,
+        "thirdPartyRequests": 0,
+        "observed": [
+          "<root>/assets/agency-work-1.svg",
+          "<root>/assets/agency-work-2.svg",
+          "<root>/assets/agency-work-3.svg",
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-agency.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/agency.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/agency.html"
+        ],
+        "expectedFromSource": [
+          "<root>/assets/agency-work-1.svg",
+          "<root>/assets/agency-work-2.svg",
+          "<root>/assets/agency-work-3.svg",
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-agency.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/agency.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/agency.html"
+        ],
+        "matchesSource": true,
+        "jsEnhanced": true,
+        "bodyBackground": "rgb(250, 246, 238)"
+      },
+      "pages/pricing.html": {
+        "mode": "file",
+        "console": [],
+        "pageErrors": [],
+        "failed": [],
+        "badResponses": [],
+        "requestCount": 13,
+        "thirdPartyRequests": 0,
+        "observed": [
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-pricing.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/pricing.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/billing.js",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/pricing.html"
+        ],
+        "expectedFromSource": [
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-pricing.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/pricing.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/js/billing.js",
+          "<root>/js/faq.js",
+          "<root>/js/form.js",
+          "<root>/js/menu.js",
+          "<root>/js/submit-adapter.js",
+          "<root>/js/theme.js",
+          "<root>/pages/pricing.html"
+        ],
+        "matchesSource": true,
+        "jsEnhanced": true,
+        "bodyBackground": "rgb(255, 255, 255)"
+      },
+      "index.html": {
+        "mode": "file",
+        "console": [],
+        "pageErrors": [],
+        "failed": [],
+        "badResponses": [],
+        "requestCount": 15,
+        "thirdPartyRequests": 0,
+        "observed": [
+          "<root>/assets/event-venue.svg",
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-agency.svg",
+          "<root>/assets/hero-app.svg",
+          "<root>/assets/hero-launch.svg",
+          "<root>/assets/hero-pricing.svg",
+          "<root>/assets/hero-saas.svg",
+          "<root>/assets/hero-waitlist.svg",
+          "<root>/assets/hero-webinar.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/index.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/index.html",
+          "<root>/js/theme.js"
+        ],
+        "expectedFromSource": [
+          "<root>/assets/event-venue.svg",
+          "<root>/assets/favicon.svg",
+          "<root>/assets/hero-agency.svg",
+          "<root>/assets/hero-app.svg",
+          "<root>/assets/hero-launch.svg",
+          "<root>/assets/hero-pricing.svg",
+          "<root>/assets/hero-saas.svg",
+          "<root>/assets/hero-waitlist.svg",
+          "<root>/assets/hero-webinar.svg",
+          "<root>/css/base.css",
+          "<root>/css/pages/index.css",
+          "<root>/css/sections.css",
+          "<root>/css/tokens.css",
+          "<root>/index.html",
+          "<root>/js/theme.js"
+        ],
+        "matchesSource": true,
+        "jsEnhanced": true,
+        "bodyBackground": "rgb(255, 255, 255)"
+      }
+    },
+    "forms": {
+      "pages/saas.html": {
+        "problems": []
+      },
+      "pages/app.html": {
+        "problems": []
+      },
+      "pages/launch.html": {
+        "problems": []
+      },
+      "pages/event.html": {
+        "problems": []
+      },
+      "pages/waitlist.html": {
+        "problems": []
+      },
+      "pages/webinar.html": {
+        "problems": []
+      },
+      "pages/agency.html": {
+        "problems": []
+      },
+      "pages/pricing.html": {
+        "problems": []
+      }
+    },
+    "menuAndTheme": {
+      "pages/saas.html": {
+        "problems": []
+      },
+      "pages/app.html": {
+        "problems": []
+      },
+      "pages/launch.html": {
+        "problems": []
+      },
+      "pages/event.html": {
+        "problems": []
+      },
+      "pages/waitlist.html": {
+        "problems": []
+      },
+      "pages/webinar.html": {
+        "problems": []
+      },
+      "pages/agency.html": {
+        "problems": []
+      },
+      "pages/pricing.html": {
+        "problems": []
+      }
+    }
+  },
+  "moduleScriptFromFileProtocol": {
+    "ran": false,
+    "consoleMessages": [
+      "error: Access to script at '<file>' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-experimental-site-token-provider, chrome-extension, chrome-untrusted, data, http, https, isolated-app.",
+      "error: Failed to load resource: net::ERR_FAILED"
+    ]
+  }
+}

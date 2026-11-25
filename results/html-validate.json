@@ -1,0 +1,64 @@
+{
+  "tool": "html-validate",
+  "config": {
+    "extends": [
+      "html-validate:recommended"
+    ]
+  },
+  "files": {
+    "pages/saas.html": {
+      "valid": true,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    "pages/app.html": {
+      "valid": true,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    "pages/launch.html": {
+      "valid": true,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    "pages/event.html": {
+      "valid": true,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    "pages/waitlist.html": {
+      "valid": true,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    "pages/webinar.html": {
+      "valid": true,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    "pages/agency.html": {
+      "valid": true,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    "pages/pricing.html": {
+      "valid": true,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    "index.html": {
+      "valid": true,
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    }
+  }
+}

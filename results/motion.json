@@ -1,0 +1,119 @@
+{
+  "pages/saas.html": {
+    "reduce": {
+      "scrollBehavior": "auto",
+      "maxTransitionSeconds": 0.000001,
+      "maxAnimationSeconds": 0
+    },
+    "no-preference": {
+      "scrollBehavior": "smooth",
+      "maxTransitionSeconds": 0.2,
+      "maxAnimationSeconds": 0
+    },
+    "problems": []
+  },
+  "pages/app.html": {
+    "reduce": {
+      "scrollBehavior": "auto",
+      "maxTransitionSeconds": 0.000001,
+      "maxAnimationSeconds": 0
+    },
+    "no-preference": {
+      "scrollBehavior": "smooth",
+      "maxTransitionSeconds": 0.15,
+      "maxAnimationSeconds": 0
+    },
+    "problems": []
+  },
+  "pages/launch.html": {
+    "reduce": {
+      "scrollBehavior": "auto",
+      "maxTransitionSeconds": 0.000001,
+      "maxAnimationSeconds": 0
+    },
+    "no-preference": {
+      "scrollBehavior": "smooth",
+      "maxTransitionSeconds": 0.15,
+      "maxAnimationSeconds": 0
+    },
+    "problems": []
+  },
+  "pages/event.html": {
+    "reduce": {
+      "scrollBehavior": "auto",
+      "maxTransitionSeconds": 0.000001,
+      "maxAnimationSeconds": 0
+    },
+    "no-preference": {
+      "scrollBehavior": "smooth",
+      "maxTransitionSeconds": 0.15,
+      "maxAnimationSeconds": 0
+    },
+    "problems": []
+  },
+  "pages/waitlist.html": {
+    "reduce": {
+      "scrollBehavior": "auto",
+      "maxTransitionSeconds": 0.000001,
+      "maxAnimationSeconds": 0
+    },
+    "no-preference": {
+      "scrollBehavior": "smooth",
+      "maxTransitionSeconds": 0.15,
+      "maxAnimationSeconds": 0
+    },
+    "problems": []
+  },
+  "pages/webinar.html": {
+    "reduce": {
+      "scrollBehavior": "auto",
+      "maxTransitionSeconds": 0.000001,
+      "maxAnimationSeconds": 0
+    },
+    "no-preference": {
+      "scrollBehavior": "smooth",
+      "maxTransitionSeconds": 0.15,
+      "maxAnimationSeconds": 1.8
+    },
+    "problems": []
+  },
+  "pages/agency.html": {
+    "reduce": {
+      "scrollBehavior": "auto",
+      "maxTransitionSeconds": 0.000001,
+      "maxAnimationSeconds": 0
+    },
+    "no-preference": {
+      "scrollBehavior": "smooth",
+      "maxTransitionSeconds": 0.15,
+      "maxAnimationSeconds": 0
+    },
+    "problems": []
+  },
+  "pages/pricing.html": {
+    "reduce": {
+      "scrollBehavior": "auto",
+      "maxTransitionSeconds": 0.000001,
+      "maxAnimationSeconds": 0
+    },
+    "no-preference": {
+      "scrollBehavior": "smooth",
+      "maxTransitionSeconds": 0.15,
+      "maxAnimationSeconds": 0
+    },
+    "problems": []
+  },
+  "index.html": {
+    "reduce": {
+      "scrollBehavior": "auto",
+      "maxTransitionSeconds": 0.000001,
+      "maxAnimationSeconds": 0
+    },
+    "no-preference": {
+      "scrollBehavior": "smooth",
+      "maxTransitionSeconds": 0,
+      "maxAnimationSeconds": 0
+    },
+    "problems": []
+  }
+}

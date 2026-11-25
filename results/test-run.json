@@ -1,0 +1,12 @@
+{
+  "command": "npm run test:record (node --test, files: tests/static.test.mjs, tests/docs.test.mjs, tests/browser.test.mjs)",
+  "exitCode": 0,
+  "tests": 231,
+  "pass": 231,
+  "fail": 0,
+  "cancelled": 0,
+  "skipped": 0,
+  "todo": 0,
+  "failingTests": [],
+  "finishedAt": "2026-10-30T22:30:15.666Z"
+}

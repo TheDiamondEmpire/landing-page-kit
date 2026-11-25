@@ -1,0 +1,110 @@
+{
+  "pages/saas.html@1280": {
+    "expected": 27,
+    "reached": 27,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/saas.html@320": {
+    "expected": 23,
+    "reached": 23,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/app.html@1280": {
+    "expected": 24,
+    "reached": 24,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/app.html@320": {
+    "expected": 21,
+    "reached": 21,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/launch.html@1280": {
+    "expected": 24,
+    "reached": 24,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/launch.html@320": {
+    "expected": 20,
+    "reached": 20,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/event.html@1280": {
+    "expected": 28,
+    "reached": 28,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/event.html@320": {
+    "expected": 24,
+    "reached": 24,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/waitlist.html@1280": {
+    "expected": 18,
+    "reached": 18,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/waitlist.html@320": {
+    "expected": 15,
+    "reached": 15,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/webinar.html@1280": {
+    "expected": 25,
+    "reached": 25,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/webinar.html@320": {
+    "expected": 21,
+    "reached": 21,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/agency.html@1280": {
+    "expected": 25,
+    "reached": 25,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/agency.html@320": {
+    "expected": 21,
+    "reached": 21,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/pricing.html@1280": {
+    "expected": 27,
+    "reached": 27,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "pages/pricing.html@320": {
+    "expected": 24,
+    "reached": 24,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "index.html@1280": {
+    "expected": 15,
+    "reached": 15,
+    "unexpectedFocus": [],
+    "problems": []
+  },
+  "index.html@320": {
+    "expected": 15,
+    "reached": 15,
+    "unexpectedFocus": [],
+    "problems": []
+  }
+}

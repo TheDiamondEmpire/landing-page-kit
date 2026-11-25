@@ -1,0 +1,854 @@
+{
+  "gzip": "zlib gzip level 9, each file compressed separately",
+  "budgets": {
+    "totalBytes": 90000,
+    "totalGzipBytes": 28000,
+    "htmlBytes": 24000,
+    "cssBytes": 40000,
+    "jsBytes": 14000,
+    "requests": 18,
+    "thirdPartyRequests": 0
+  },
+  "pages": {
+    "pages/saas.html": {
+      "files": [
+        {
+          "path": "pages/saas.html",
+          "type": "html",
+          "bytes": 12759,
+          "gzipBytes": 3885
+        },
+        {
+          "path": "assets/favicon.svg",
+          "type": "asset",
+          "bytes": 296,
+          "gzipBytes": 237
+        },
+        {
+          "path": "css/tokens.css",
+          "type": "css",
+          "bytes": 4200,
+          "gzipBytes": 1662
+        },
+        {
+          "path": "css/base.css",
+          "type": "css",
+          "bytes": 4306,
+          "gzipBytes": 1611
+        },
+        {
+          "path": "css/sections.css",
+          "type": "css",
+          "bytes": 13937,
+          "gzipBytes": 3321
+        },
+        {
+          "path": "css/pages/saas.css",
+          "type": "css",
+          "bytes": 679,
+          "gzipBytes": 406
+        },
+        {
+          "path": "js/theme.js",
+          "type": "js",
+          "bytes": 1885,
+          "gzipBytes": 881
+        },
+        {
+          "path": "js/menu.js",
+          "type": "js",
+          "bytes": 1605,
+          "gzipBytes": 719
+        },
+        {
+          "path": "js/faq.js",
+          "type": "js",
+          "bytes": 1428,
+          "gzipBytes": 692
+        },
+        {
+          "path": "js/submit-adapter.js",
+          "type": "js",
+          "bytes": 1729,
+          "gzipBytes": 936
+        },
+        {
+          "path": "js/form.js",
+          "type": "js",
+          "bytes": 5623,
+          "gzipBytes": 2122
+        },
+        {
+          "path": "assets/hero-saas.svg",
+          "type": "asset",
+          "bytes": 3332,
+          "gzipBytes": 977
+        }
+      ],
+      "totals": {
+        "htmlBytes": 12759,
+        "cssBytes": 23122,
+        "jsBytes": 12270,
+        "assetBytes": 3628,
+        "totalBytes": 51779,
+        "totalGzipBytes": 17449,
+        "requests": 12
+      },
+      "overBudget": []
+    },
+    "pages/app.html": {
+      "files": [
+        {
+          "path": "pages/app.html",
+          "type": "html",
+          "bytes": 11501,
+          "gzipBytes": 3513
+        },
+        {
+          "path": "assets/favicon.svg",
+          "type": "asset",
+          "bytes": 296,
+          "gzipBytes": 237
+        },
+        {
+          "path": "css/tokens.css",
+          "type": "css",
+          "bytes": 4200,
+          "gzipBytes": 1662
+        },
+        {
+          "path": "css/base.css",
+          "type": "css",
+          "bytes": 4306,
+          "gzipBytes": 1611
+        },
+        {
+          "path": "css/sections.css",
+          "type": "css",
+          "bytes": 13937,
+          "gzipBytes": 3321
+        },
+        {
+          "path": "css/pages/app.css",
+          "type": "css",
+          "bytes": 2268,
+          "gzipBytes": 990
+        },
+        {
+          "path": "js/theme.js",
+          "type": "js",
+          "bytes": 1885,
+          "gzipBytes": 881
+        },
+        {
+          "path": "js/menu.js",
+          "type": "js",
+          "bytes": 1605,
+          "gzipBytes": 719
+        },
+        {
+          "path": "js/faq.js",
+          "type": "js",
+          "bytes": 1428,
+          "gzipBytes": 692
+        },
+        {
+          "path": "js/submit-adapter.js",
+          "type": "js",
+          "bytes": 1729,
+          "gzipBytes": 936
+        },
+        {
+          "path": "js/form.js",
+          "type": "js",
+          "bytes": 5623,
+          "gzipBytes": 2122
+        },
+        {
+          "path": "assets/hero-app.svg",
+          "type": "asset",
+          "bytes": 1866,
+          "gzipBytes": 732
+        },
+        {
+          "path": "assets/app-screen-1.svg",
+          "type": "asset",
+          "bytes": 1510,
+          "gzipBytes": 514
+        },
+        {
+          "path": "assets/app-screen-2.svg",
+          "type": "asset",
+          "bytes": 1143,
+          "gzipBytes": 476
+        },
+        {
+          "path": "assets/app-screen-3.svg",
+          "type": "asset",
+          "bytes": 1432,
+          "gzipBytes": 488
+        }
+      ],
+      "totals": {
+        "htmlBytes": 11501,
+        "cssBytes": 24711,
+        "jsBytes": 12270,
+        "assetBytes": 6247,
+        "totalBytes": 54729,
+        "totalGzipBytes": 18894,
+        "requests": 15
+      },
+      "overBudget": []
+    },
+    "pages/launch.html": {
+      "files": [
+        {
+          "path": "pages/launch.html",
+          "type": "html",
+          "bytes": 10198,
+          "gzipBytes": 3326
+        },
+        {
+          "path": "assets/favicon.svg",
+          "type": "asset",
+          "bytes": 296,
+          "gzipBytes": 237
+        },
+        {
+          "path": "css/tokens.css",
+          "type": "css",
+          "bytes": 4200,
+          "gzipBytes": 1662
+        },
+        {
+          "path": "css/base.css",
+          "type": "css",
+          "bytes": 4306,
+          "gzipBytes": 1611
+        },
+        {
+          "path": "css/sections.css",
+          "type": "css",
+          "bytes": 13937,
+          "gzipBytes": 3321
+        },
+        {
+          "path": "css/pages/launch.css",
+          "type": "css",
+          "bytes": 2991,
+          "gzipBytes": 1133
+        },
+        {
+          "path": "js/theme.js",
+          "type": "js",
+          "bytes": 1885,
+          "gzipBytes": 881
+        },
+        {
+          "path": "js/menu.js",
+          "type": "js",
+          "bytes": 1605,
+          "gzipBytes": 719
+        },
+        {
+          "path": "js/faq.js",
+          "type": "js",
+          "bytes": 1428,
+          "gzipBytes": 692
+        },
+        {
+          "path": "js/submit-adapter.js",
+          "type": "js",
+          "bytes": 1729,
+          "gzipBytes": 936
+        },
+        {
+          "path": "js/form.js",
+          "type": "js",
+          "bytes": 5623,
+          "gzipBytes": 2122
+        },
+        {
+          "path": "assets/hero-launch.svg",
+          "type": "asset",
+          "bytes": 1686,
+          "gzipBytes": 732
+        },
+        {
+          "path": "assets/launch-light.svg",
+          "type": "asset",
+          "bytes": 1292,
+          "gzipBytes": 567
+        }
+      ],
+      "totals": {
+        "htmlBytes": 10198,
+        "cssBytes": 25434,
+        "jsBytes": 12270,
+        "assetBytes": 3274,
+        "totalBytes": 51176,
+        "totalGzipBytes": 17939,
+        "requests": 13
+      },
+      "overBudget": []
+    },
+    "pages/event.html": {
+      "files": [
+        {
+          "path": "pages/event.html",
+          "type": "html",
+          "bytes": 13678,
+          "gzipBytes": 3874
+        },
+        {
+          "path": "assets/favicon.svg",
+          "type": "asset",
+          "bytes": 296,
+          "gzipBytes": 237
+        },
+        {
+          "path": "css/tokens.css",
+          "type": "css",
+          "bytes": 4200,
+          "gzipBytes": 1662
+        },
+        {
+          "path": "css/base.css",
+          "type": "css",
+          "bytes": 4306,
+          "gzipBytes": 1611
+        },
+        {
+          "path": "css/sections.css",
+          "type": "css",
+          "bytes": 13937,
+          "gzipBytes": 3321
+        },
+        {
+          "path": "css/pages/event.css",
+          "type": "css",
+          "bytes": 3928,
+          "gzipBytes": 1350
+        },
+        {
+          "path": "js/theme.js",
+          "type": "js",
+          "bytes": 1885,
+          "gzipBytes": 881
+        },
+        {
+          "path": "js/menu.js",
+          "type": "js",
+          "bytes": 1605,
+          "gzipBytes": 719
+        },
+        {
+          "path": "js/faq.js",
+          "type": "js",
+          "bytes": 1428,
+          "gzipBytes": 692
+        },
+        {
+          "path": "js/submit-adapter.js",
+          "type": "js",
+          "bytes": 1729,
+          "gzipBytes": 936
+        },
+        {
+          "path": "js/form.js",
+          "type": "js",
+          "bytes": 5623,
+          "gzipBytes": 2122
+        },
+        {
+          "path": "assets/event-venue.svg",
+          "type": "asset",
+          "bytes": 1824,
+          "gzipBytes": 637
+        }
+      ],
+      "totals": {
+        "htmlBytes": 13678,
+        "cssBytes": 26371,
+        "jsBytes": 12270,
+        "assetBytes": 2120,
+        "totalBytes": 54439,
+        "totalGzipBytes": 18042,
+        "requests": 12
+      },
+      "overBudget": []
+    },
+    "pages/waitlist.html": {
+      "files": [
+        {
+          "path": "pages/waitlist.html",
+          "type": "html",
+          "bytes": 6948,
+          "gzipBytes": 2378
+        },
+        {
+          "path": "assets/favicon.svg",
+          "type": "asset",
+          "bytes": 296,
+          "gzipBytes": 237
+        },
+        {
+          "path": "css/tokens.css",
+          "type": "css",
+          "bytes": 4200,
+          "gzipBytes": 1662
+        },
+        {
+          "path": "css/base.css",
+          "type": "css",
+          "bytes": 4306,
+          "gzipBytes": 1611
+        },
+        {
+          "path": "css/sections.css",
+          "type": "css",
+          "bytes": 13937,
+          "gzipBytes": 3321
+        },
+        {
+          "path": "css/pages/waitlist.css",
+          "type": "css",
+          "bytes": 2222,
+          "gzipBytes": 970
+        },
+        {
+          "path": "js/theme.js",
+          "type": "js",
+          "bytes": 1885,
+          "gzipBytes": 881
+        },
+        {
+          "path": "js/menu.js",
+          "type": "js",
+          "bytes": 1605,
+          "gzipBytes": 719
+        },
+        {
+          "path": "js/faq.js",
+          "type": "js",
+          "bytes": 1428,
+          "gzipBytes": 692
+        },
+        {
+          "path": "js/submit-adapter.js",
+          "type": "js",
+          "bytes": 1729,
+          "gzipBytes": 936
+        },
+        {
+          "path": "js/form.js",
+          "type": "js",
+          "bytes": 5623,
+          "gzipBytes": 2122
+        },
+        {
+          "path": "assets/hero-waitlist.svg",
+          "type": "asset",
+          "bytes": 1142,
+          "gzipBytes": 464
+        }
+      ],
+      "totals": {
+        "htmlBytes": 6948,
+        "cssBytes": 24665,
+        "jsBytes": 12270,
+        "assetBytes": 1438,
+        "totalBytes": 45321,
+        "totalGzipBytes": 15993,
+        "requests": 12
+      },
+      "overBudget": []
+    },
+    "pages/webinar.html": {
+      "files": [
+        {
+          "path": "pages/webinar.html",
+          "type": "html",
+          "bytes": 9464,
+          "gzipBytes": 2958
+        },
+        {
+          "path": "assets/favicon.svg",
+          "type": "asset",
+          "bytes": 296,
+          "gzipBytes": 237
+        },
+        {
+          "path": "css/tokens.css",
+          "type": "css",
+          "bytes": 4200,
+          "gzipBytes": 1662
+        },
+        {
+          "path": "css/base.css",
+          "type": "css",
+          "bytes": 4306,
+          "gzipBytes": 1611
+        },
+        {
+          "path": "css/sections.css",
+          "type": "css",
+          "bytes": 13937,
+          "gzipBytes": 3321
+        },
+        {
+          "path": "css/pages/webinar.css",
+          "type": "css",
+          "bytes": 2716,
+          "gzipBytes": 1060
+        },
+        {
+          "path": "js/theme.js",
+          "type": "js",
+          "bytes": 1885,
+          "gzipBytes": 881
+        },
+        {
+          "path": "js/menu.js",
+          "type": "js",
+          "bytes": 1605,
+          "gzipBytes": 719
+        },
+        {
+          "path": "js/faq.js",
+          "type": "js",
+          "bytes": 1428,
+          "gzipBytes": 692
+        },
+        {
+          "path": "js/submit-adapter.js",
+          "type": "js",
+          "bytes": 1729,
+          "gzipBytes": 936
+        },
+        {
+          "path": "js/form.js",
+          "type": "js",
+          "bytes": 5623,
+          "gzipBytes": 2122
+        },
+        {
+          "path": "assets/hero-webinar.svg",
+          "type": "asset",
+          "bytes": 1631,
+          "gzipBytes": 611
+        }
+      ],
+      "totals": {
+        "htmlBytes": 9464,
+        "cssBytes": 25159,
+        "jsBytes": 12270,
+        "assetBytes": 1927,
+        "totalBytes": 48820,
+        "totalGzipBytes": 16810,
+        "requests": 12
+      },
+      "overBudget": []
+    },
+    "pages/agency.html": {
+      "files": [
+        {
+          "path": "pages/agency.html",
+          "type": "html",
+          "bytes": 9956,
+          "gzipBytes": 3141
+        },
+        {
+          "path": "assets/favicon.svg",
+          "type": "asset",
+          "bytes": 296,
+          "gzipBytes": 237
+        },
+        {
+          "path": "css/tokens.css",
+          "type": "css",
+          "bytes": 4200,
+          "gzipBytes": 1662
+        },
+        {
+          "path": "css/base.css",
+          "type": "css",
+          "bytes": 4306,
+          "gzipBytes": 1611
+        },
+        {
+          "path": "css/sections.css",
+          "type": "css",
+          "bytes": 13937,
+          "gzipBytes": 3321
+        },
+        {
+          "path": "css/pages/agency.css",
+          "type": "css",
+          "bytes": 3045,
+          "gzipBytes": 1165
+        },
+        {
+          "path": "js/theme.js",
+          "type": "js",
+          "bytes": 1885,
+          "gzipBytes": 881
+        },
+        {
+          "path": "js/menu.js",
+          "type": "js",
+          "bytes": 1605,
+          "gzipBytes": 719
+        },
+        {
+          "path": "js/faq.js",
+          "type": "js",
+          "bytes": 1428,
+          "gzipBytes": 692
+        },
+        {
+          "path": "js/submit-adapter.js",
+          "type": "js",
+          "bytes": 1729,
+          "gzipBytes": 936
+        },
+        {
+          "path": "js/form.js",
+          "type": "js",
+          "bytes": 5623,
+          "gzipBytes": 2122
+        },
+        {
+          "path": "assets/hero-agency.svg",
+          "type": "asset",
+          "bytes": 896,
+          "gzipBytes": 430
+        },
+        {
+          "path": "assets/agency-work-1.svg",
+          "type": "asset",
+          "bytes": 657,
+          "gzipBytes": 375
+        },
+        {
+          "path": "assets/agency-work-2.svg",
+          "type": "asset",
+          "bytes": 1080,
+          "gzipBytes": 468
+        },
+        {
+          "path": "assets/agency-work-3.svg",
+          "type": "asset",
+          "bytes": 848,
+          "gzipBytes": 418
+        }
+      ],
+      "totals": {
+        "htmlBytes": 9956,
+        "cssBytes": 25488,
+        "jsBytes": 12270,
+        "assetBytes": 3777,
+        "totalBytes": 51491,
+        "totalGzipBytes": 18178,
+        "requests": 15
+      },
+      "overBudget": []
+    },
+    "pages/pricing.html": {
+      "files": [
+        {
+          "path": "pages/pricing.html",
+          "type": "html",
+          "bytes": 11894,
+          "gzipBytes": 3211
+        },
+        {
+          "path": "assets/favicon.svg",
+          "type": "asset",
+          "bytes": 296,
+          "gzipBytes": 237
+        },
+        {
+          "path": "css/tokens.css",
+          "type": "css",
+          "bytes": 4200,
+          "gzipBytes": 1662
+        },
+        {
+          "path": "css/base.css",
+          "type": "css",
+          "bytes": 4306,
+          "gzipBytes": 1611
+        },
+        {
+          "path": "css/sections.css",
+          "type": "css",
+          "bytes": 13937,
+          "gzipBytes": 3321
+        },
+        {
+          "path": "css/pages/pricing.css",
+          "type": "css",
+          "bytes": 2823,
+          "gzipBytes": 1069
+        },
+        {
+          "path": "js/theme.js",
+          "type": "js",
+          "bytes": 1885,
+          "gzipBytes": 881
+        },
+        {
+          "path": "js/menu.js",
+          "type": "js",
+          "bytes": 1605,
+          "gzipBytes": 719
+        },
+        {
+          "path": "js/faq.js",
+          "type": "js",
+          "bytes": 1428,
+          "gzipBytes": 692
+        },
+        {
+          "path": "js/submit-adapter.js",
+          "type": "js",
+          "bytes": 1729,
+          "gzipBytes": 936
+        },
+        {
+          "path": "js/form.js",
+          "type": "js",
+          "bytes": 5623,
+          "gzipBytes": 2122
+        },
+        {
+          "path": "js/billing.js",
+          "type": "js",
+          "bytes": 1243,
+          "gzipBytes": 557
+        },
+        {
+          "path": "assets/hero-pricing.svg",
+          "type": "asset",
+          "bytes": 1536,
+          "gzipBytes": 499
+        }
+      ],
+      "totals": {
+        "htmlBytes": 11894,
+        "cssBytes": 25266,
+        "jsBytes": 13513,
+        "assetBytes": 1832,
+        "totalBytes": 52505,
+        "totalGzipBytes": 17517,
+        "requests": 13
+      },
+      "overBudget": []
+    },
+    "index.html": {
+      "files": [
+        {
+          "path": "index.html",
+          "type": "html",
+          "bytes": 5072,
+          "gzipBytes": 1715
+        },
+        {
+          "path": "assets/favicon.svg",
+          "type": "asset",
+          "bytes": 296,
+          "gzipBytes": 237
+        },
+        {
+          "path": "css/tokens.css",
+          "type": "css",
+          "bytes": 4200,
+          "gzipBytes": 1662
+        },
+        {
+          "path": "css/base.css",
+          "type": "css",
+          "bytes": 4306,
+          "gzipBytes": 1611
+        },
+        {
+          "path": "css/sections.css",
+          "type": "css",
+          "bytes": 13937,
+          "gzipBytes": 3321
+        },
+        {
+          "path": "css/pages/index.css",
+          "type": "css",
+          "bytes": 966,
+          "gzipBytes": 490
+        },
+        {
+          "path": "js/theme.js",
+          "type": "js",
+          "bytes": 1885,
+          "gzipBytes": 881
+        },
+        {
+          "path": "assets/hero-saas.svg",
+          "type": "asset",
+          "bytes": 3332,
+          "gzipBytes": 977
+        },
+        {
+          "path": "assets/hero-app.svg",
+          "type": "asset",
+          "bytes": 1866,
+          "gzipBytes": 732
+        },
+        {
+          "path": "assets/hero-launch.svg",
+          "type": "asset",
+          "bytes": 1686,
+          "gzipBytes": 732
+        },
+        {
+          "path": "assets/event-venue.svg",
+          "type": "asset",
+          "bytes": 1824,
+          "gzipBytes": 637
+        },
+        {
+          "path": "assets/hero-waitlist.svg",
+          "type": "asset",
+          "bytes": 1142,
+          "gzipBytes": 464
+        },
+        {
+          "path": "assets/hero-webinar.svg",
+          "type": "asset",
+          "bytes": 1631,
+          "gzipBytes": 611
+        },
+        {
+          "path": "assets/hero-agency.svg",
+          "type": "asset",
+          "bytes": 896,
+          "gzipBytes": 430
+        },
+        {
+          "path": "assets/hero-pricing.svg",
+          "type": "asset",
+          "bytes": 1536,
+          "gzipBytes": 499
+        }
+      ],
+      "totals": {
+        "htmlBytes": 5072,
+        "cssBytes": 23409,
+        "jsBytes": 1885,
+        "assetBytes": 14209,
+        "totalBytes": 44575,
+        "totalGzipBytes": 14999,
+        "requests": 15
+      },
+      "overBudget": []
+    }
+  }
+}

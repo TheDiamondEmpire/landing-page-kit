@@ -1,0 +1,47 @@
+{
+  "pages/saas.html": {
+    "checked": 43,
+    "broken": [],
+    "external": []
+  },
+  "pages/app.html": {
+    "checked": 42,
+    "broken": [],
+    "external": []
+  },
+  "pages/launch.html": {
+    "checked": 41,
+    "broken": [],
+    "external": []
+  },
+  "pages/event.html": {
+    "checked": 46,
+    "broken": [],
+    "external": []
+  },
+  "pages/waitlist.html": {
+    "checked": 32,
+    "broken": [],
+    "external": []
+  },
+  "pages/webinar.html": {
+    "checked": 41,
+    "broken": [],
+    "external": []
+  },
+  "pages/agency.html": {
+    "checked": 48,
+    "broken": [],
+    "external": []
+  },
+  "pages/pricing.html": {
+    "checked": 41,
+    "broken": [],
+    "external": []
+  },
+  "index.html": {
+    "checked": 30,
+    "broken": [],
+    "external": []
+  }
+}

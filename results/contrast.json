@@ -1,0 +1,5343 @@
+{
+  "method": "WCAG 2.x relative-luminance contrast ratio computed from hex colour tokens in css/tokens.css and css/pages/<page>.css. Ratios are rounded down to two decimals.",
+  "pairsPerPageTheme": 29,
+  "pairsChecked": 522,
+  "passed": 522,
+  "failed": 0,
+  "smallestMargin": {
+    "fg": "--accent-text",
+    "bg": "--surface-2",
+    "ratio": 4.77,
+    "min": 4.5,
+    "use": "links on tinted surfaces"
+  },
+  "darkBlockConsistency": {
+    "css/tokens.css": {
+      "present": true,
+      "identical": true,
+      "differences": []
+    },
+    "css/pages/saas.css": {
+      "present": false,
+      "identical": true,
+      "differences": []
+    },
+    "css/pages/app.css": {
+      "present": true,
+      "identical": true,
+      "differences": []
+    },
+    "css/pages/launch.css": {
+      "present": true,
+      "identical": true,
+      "differences": []
+    },
+    "css/pages/event.css": {
+      "present": true,
+      "identical": true,
+      "differences": []
+    },
+    "css/pages/waitlist.css": {
+      "present": true,
+      "identical": true,
+      "differences": []
+    },
+    "css/pages/webinar.css": {
+      "present": true,
+      "identical": true,
+      "differences": []
+    },
+    "css/pages/agency.css": {
+      "present": true,
+      "identical": true,
+      "differences": []
+    },
+    "css/pages/pricing.css": {
+      "present": true,
+      "identical": true,
+      "differences": []
+    },
+    "css/pages/index.css": {
+      "present": false,
+      "identical": true,
+      "differences": []
+    }
+  },
+  "failures": [],
+  "pages": {
+    "saas": {
+      "light": [
+        {
+          "fg": "--text",
+          "fgValue": "#10172a",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 17.82,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#10172a",
+          "bg": "--surface",
+          "bgValue": "#f4f6fa",
+          "min": 4.5,
+          "ratio": 16.47,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#10172a",
+          "bg": "--surface-2",
+          "bgValue": "#e8ecf3",
+          "min": 4.5,
+          "ratio": 15.04,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#10172a",
+          "bg": "--accent-soft",
+          "bgValue": "#eceafd",
+          "min": 4.5,
+          "ratio": 15.07,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#4a5470",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 7.51,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#4a5470",
+          "bg": "--surface",
+          "bgValue": "#f4f6fa",
+          "min": 4.5,
+          "ratio": 6.94,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#4a5470",
+          "bg": "--surface-2",
+          "bgValue": "#e8ecf3",
+          "min": 4.5,
+          "ratio": 6.34,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#4338ca",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 7.9,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#4338ca",
+          "bg": "--surface",
+          "bgValue": "#f4f6fa",
+          "min": 4.5,
+          "ratio": 7.3,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#4338ca",
+          "bg": "--surface-2",
+          "bgValue": "#e8ecf3",
+          "min": 4.5,
+          "ratio": 6.67,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#4338ca",
+          "bg": "--accent-soft",
+          "bgValue": "#eceafd",
+          "min": 3,
+          "ratio": 6.68,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#ffffff",
+          "bg": "--accent",
+          "bgValue": "#4338ca",
+          "min": 4.5,
+          "ratio": 7.9,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#10172a",
+          "bg": "--hero-bg",
+          "bgValue": "#eceafd",
+          "min": 4.5,
+          "ratio": 15.07,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#4a5470",
+          "bg": "--hero-bg",
+          "bgValue": "#eceafd",
+          "min": 4.5,
+          "ratio": 6.35,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#4338ca",
+          "bg": "--hero-bg",
+          "bgValue": "#eceafd",
+          "min": 3,
+          "ratio": 6.68,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#10172a",
+          "bg": "--footer-bg",
+          "bgValue": "#e8ecf3",
+          "min": 4.5,
+          "ratio": 15.04,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#4a5470",
+          "bg": "--footer-bg",
+          "bgValue": "#e8ecf3",
+          "min": 4.5,
+          "ratio": 6.34,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--surface",
+          "bgValue": "#f4f6fa",
+          "min": 4.5,
+          "ratio": 6.04,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 6.53,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#1b6b3a",
+          "bg": "--surface-2",
+          "bgValue": "#e8ecf3",
+          "min": 3,
+          "ratio": 5.52,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#68718d",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 4.84,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#68718d",
+          "bg": "--surface",
+          "bgValue": "#f4f6fa",
+          "min": 3,
+          "ratio": 4.47,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 6.7,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--surface",
+          "bgValue": "#f4f6fa",
+          "min": 3,
+          "ratio": 6.19,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--surface-2",
+          "bgValue": "#e8ecf3",
+          "min": 3,
+          "ratio": 5.65,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--accent-soft",
+          "bgValue": "#eceafd",
+          "min": 3,
+          "ratio": 5.66,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--hero-bg",
+          "bgValue": "#eceafd",
+          "min": 3,
+          "ratio": 5.66,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--footer-bg",
+          "bgValue": "#e8ecf3",
+          "min": 3,
+          "ratio": 5.65,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#4338ca",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 7.9,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ],
+      "dark": [
+        {
+          "fg": "--text",
+          "fgValue": "#eef1fa",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 4.5,
+          "ratio": 16.53,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#eef1fa",
+          "bg": "--surface",
+          "bgValue": "#151c30",
+          "min": 4.5,
+          "ratio": 14.99,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#eef1fa",
+          "bg": "--surface-2",
+          "bgValue": "#1e2740",
+          "min": 4.5,
+          "ratio": 13.1,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#eef1fa",
+          "bg": "--accent-soft",
+          "bgValue": "#1f2350",
+          "min": 4.5,
+          "ratio": 13.14,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#a9b3cf",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 4.5,
+          "ratio": 8.92,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#a9b3cf",
+          "bg": "--surface",
+          "bgValue": "#151c30",
+          "min": 4.5,
+          "ratio": 8.08,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#a9b3cf",
+          "bg": "--surface-2",
+          "bgValue": "#1e2740",
+          "min": 4.5,
+          "ratio": 7.07,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a9adff",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 4.5,
+          "ratio": 8.98,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a9adff",
+          "bg": "--surface",
+          "bgValue": "#151c30",
+          "min": 4.5,
+          "ratio": 8.14,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a9adff",
+          "bg": "--surface-2",
+          "bgValue": "#1e2740",
+          "min": 4.5,
+          "ratio": 7.12,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a9adff",
+          "bg": "--accent-soft",
+          "bgValue": "#1f2350",
+          "min": 3,
+          "ratio": 7.14,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#0d1220",
+          "bg": "--accent",
+          "bgValue": "#8f94ff",
+          "min": 4.5,
+          "ratio": 6.97,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#eef1fa",
+          "bg": "--hero-bg",
+          "bgValue": "#1f2350",
+          "min": 4.5,
+          "ratio": 13.14,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#a9b3cf",
+          "bg": "--hero-bg",
+          "bgValue": "#1f2350",
+          "min": 4.5,
+          "ratio": 7.09,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#8f94ff",
+          "bg": "--hero-bg",
+          "bgValue": "#1f2350",
+          "min": 3,
+          "ratio": 5.54,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#eef1fa",
+          "bg": "--footer-bg",
+          "bgValue": "#1e2740",
+          "min": 4.5,
+          "ratio": 13.1,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#a9b3cf",
+          "bg": "--footer-bg",
+          "bgValue": "#1e2740",
+          "min": 4.5,
+          "ratio": 7.07,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--surface",
+          "bgValue": "#151c30",
+          "min": 4.5,
+          "ratio": 7.41,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 4.5,
+          "ratio": 8.18,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#6fd49a",
+          "bg": "--surface-2",
+          "bgValue": "#1e2740",
+          "min": 3,
+          "ratio": 8.14,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#8190b8",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 3,
+          "ratio": 5.88,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#8190b8",
+          "bg": "--surface",
+          "bgValue": "#151c30",
+          "min": 3,
+          "ratio": 5.33,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 3,
+          "ratio": 9.25,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--surface",
+          "bgValue": "#151c30",
+          "min": 3,
+          "ratio": 8.38,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--surface-2",
+          "bgValue": "#1e2740",
+          "min": 3,
+          "ratio": 7.33,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--accent-soft",
+          "bgValue": "#1f2350",
+          "min": 3,
+          "ratio": 7.35,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--hero-bg",
+          "bgValue": "#1f2350",
+          "min": 3,
+          "ratio": 7.35,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--footer-bg",
+          "bgValue": "#1e2740",
+          "min": 3,
+          "ratio": 7.33,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a9adff",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 3,
+          "ratio": 8.98,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ]
+    },
+    "app": {
+      "light": [
+        {
+          "fg": "--text",
+          "fgValue": "#0c2a25",
+          "bg": "--bg",
+          "bgValue": "#fbfefd",
+          "min": 4.5,
+          "ratio": 15.06,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#0c2a25",
+          "bg": "--surface",
+          "bgValue": "#eef8f5",
+          "min": 4.5,
+          "ratio": 14.11,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#0c2a25",
+          "bg": "--surface-2",
+          "bgValue": "#dcefe9",
+          "min": 4.5,
+          "ratio": 12.78,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#0c2a25",
+          "bg": "--accent-soft",
+          "bgValue": "#d9f4ec",
+          "min": 4.5,
+          "ratio": 13.17,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#3e5c55",
+          "bg": "--bg",
+          "bgValue": "#fbfefd",
+          "min": 4.5,
+          "ratio": 7.21,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#3e5c55",
+          "bg": "--surface",
+          "bgValue": "#eef8f5",
+          "min": 4.5,
+          "ratio": 6.76,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#3e5c55",
+          "bg": "--surface-2",
+          "bgValue": "#dcefe9",
+          "min": 4.5,
+          "ratio": 6.12,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#0a6b5d",
+          "bg": "--bg",
+          "bgValue": "#fbfefd",
+          "min": 4.5,
+          "ratio": 6.32,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#0a6b5d",
+          "bg": "--surface",
+          "bgValue": "#eef8f5",
+          "min": 4.5,
+          "ratio": 5.91,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#0a6b5d",
+          "bg": "--surface-2",
+          "bgValue": "#dcefe9",
+          "min": 4.5,
+          "ratio": 5.36,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#0a6b5d",
+          "bg": "--accent-soft",
+          "bgValue": "#d9f4ec",
+          "min": 3,
+          "ratio": 5.52,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#ffffff",
+          "bg": "--accent",
+          "bgValue": "#0a7466",
+          "min": 4.5,
+          "ratio": 5.67,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#0c2a25",
+          "bg": "--hero-bg",
+          "bgValue": "#d9f4ec",
+          "min": 4.5,
+          "ratio": 13.17,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#3e5c55",
+          "bg": "--hero-bg",
+          "bgValue": "#d9f4ec",
+          "min": 4.5,
+          "ratio": 6.31,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#0a7466",
+          "bg": "--hero-bg",
+          "bgValue": "#d9f4ec",
+          "min": 3,
+          "ratio": 4.88,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#0c2a25",
+          "bg": "--footer-bg",
+          "bgValue": "#dcefe9",
+          "min": 4.5,
+          "ratio": 12.78,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#3e5c55",
+          "bg": "--footer-bg",
+          "bgValue": "#dcefe9",
+          "min": 4.5,
+          "ratio": 6.12,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--surface",
+          "bgValue": "#eef8f5",
+          "min": 4.5,
+          "ratio": 6.03,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--bg",
+          "bgValue": "#fbfefd",
+          "min": 4.5,
+          "ratio": 6.44,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#1b6b3a",
+          "bg": "--surface-2",
+          "bgValue": "#dcefe9",
+          "min": 3,
+          "ratio": 5.47,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#5c7d75",
+          "bg": "--bg",
+          "bgValue": "#fbfefd",
+          "min": 3,
+          "ratio": 4.45,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#5c7d75",
+          "bg": "--surface",
+          "bgValue": "#eef8f5",
+          "min": 3,
+          "ratio": 4.17,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#0a5a8f",
+          "bg": "--bg",
+          "bgValue": "#fbfefd",
+          "min": 3,
+          "ratio": 7.2,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#0a5a8f",
+          "bg": "--surface",
+          "bgValue": "#eef8f5",
+          "min": 3,
+          "ratio": 6.74,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#0a5a8f",
+          "bg": "--surface-2",
+          "bgValue": "#dcefe9",
+          "min": 3,
+          "ratio": 6.11,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#0a5a8f",
+          "bg": "--accent-soft",
+          "bgValue": "#d9f4ec",
+          "min": 3,
+          "ratio": 6.3,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#0a5a8f",
+          "bg": "--hero-bg",
+          "bgValue": "#d9f4ec",
+          "min": 3,
+          "ratio": 6.3,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#0a5a8f",
+          "bg": "--footer-bg",
+          "bgValue": "#dcefe9",
+          "min": 3,
+          "ratio": 6.11,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#0a6b5d",
+          "bg": "--bg",
+          "bgValue": "#fbfefd",
+          "min": 3,
+          "ratio": 6.32,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ],
+      "dark": [
+        {
+          "fg": "--text",
+          "fgValue": "#e9f7f3",
+          "bg": "--bg",
+          "bgValue": "#0a1614",
+          "min": 4.5,
+          "ratio": 16.75,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#e9f7f3",
+          "bg": "--surface",
+          "bgValue": "#11211e",
+          "min": 4.5,
+          "ratio": 15.12,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#e9f7f3",
+          "bg": "--surface-2",
+          "bgValue": "#1a3029",
+          "min": 4.5,
+          "ratio": 12.71,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#e9f7f3",
+          "bg": "--accent-soft",
+          "bgValue": "#0f3a34",
+          "min": 4.5,
+          "ratio": 11.38,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#a6c4bc",
+          "bg": "--bg",
+          "bgValue": "#0a1614",
+          "min": 4.5,
+          "ratio": 9.88,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#a6c4bc",
+          "bg": "--surface",
+          "bgValue": "#11211e",
+          "min": 4.5,
+          "ratio": 8.92,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#a6c4bc",
+          "bg": "--surface-2",
+          "bgValue": "#1a3029",
+          "min": 4.5,
+          "ratio": 7.5,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#5fe8d0",
+          "bg": "--bg",
+          "bgValue": "#0a1614",
+          "min": 4.5,
+          "ratio": 12.25,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#5fe8d0",
+          "bg": "--surface",
+          "bgValue": "#11211e",
+          "min": 4.5,
+          "ratio": 11.06,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#5fe8d0",
+          "bg": "--surface-2",
+          "bgValue": "#1a3029",
+          "min": 4.5,
+          "ratio": 9.3,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#5fe8d0",
+          "bg": "--accent-soft",
+          "bgValue": "#0f3a34",
+          "min": 3,
+          "ratio": 8.32,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#04211c",
+          "bg": "--accent",
+          "bgValue": "#3ddbc0",
+          "min": 4.5,
+          "ratio": 9.75,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#e9f7f3",
+          "bg": "--hero-bg",
+          "bgValue": "#0f3a34",
+          "min": 4.5,
+          "ratio": 11.38,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#a6c4bc",
+          "bg": "--hero-bg",
+          "bgValue": "#0f3a34",
+          "min": 4.5,
+          "ratio": 6.71,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#3ddbc0",
+          "bg": "--hero-bg",
+          "bgValue": "#0f3a34",
+          "min": 3,
+          "ratio": 7.21,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#e9f7f3",
+          "bg": "--footer-bg",
+          "bgValue": "#1a3029",
+          "min": 4.5,
+          "ratio": 12.71,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#a6c4bc",
+          "bg": "--footer-bg",
+          "bgValue": "#1a3029",
+          "min": 4.5,
+          "ratio": 7.5,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--surface",
+          "bgValue": "#11211e",
+          "min": 4.5,
+          "ratio": 7.3,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--bg",
+          "bgValue": "#0a1614",
+          "min": 4.5,
+          "ratio": 8.08,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#6fd49a",
+          "bg": "--surface-2",
+          "bgValue": "#1a3029",
+          "min": 3,
+          "ratio": 7.71,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#7fa79c",
+          "bg": "--bg",
+          "bgValue": "#0a1614",
+          "min": 3,
+          "ratio": 6.95,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#7fa79c",
+          "bg": "--surface",
+          "bgValue": "#11211e",
+          "min": 3,
+          "ratio": 6.27,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#7dd3fc",
+          "bg": "--bg",
+          "bgValue": "#0a1614",
+          "min": 3,
+          "ratio": 11.07,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#7dd3fc",
+          "bg": "--surface",
+          "bgValue": "#11211e",
+          "min": 3,
+          "ratio": 9.99,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#7dd3fc",
+          "bg": "--surface-2",
+          "bgValue": "#1a3029",
+          "min": 3,
+          "ratio": 8.4,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#7dd3fc",
+          "bg": "--accent-soft",
+          "bgValue": "#0f3a34",
+          "min": 3,
+          "ratio": 7.51,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#7dd3fc",
+          "bg": "--hero-bg",
+          "bgValue": "#0f3a34",
+          "min": 3,
+          "ratio": 7.51,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#7dd3fc",
+          "bg": "--footer-bg",
+          "bgValue": "#1a3029",
+          "min": 3,
+          "ratio": 8.4,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#5fe8d0",
+          "bg": "--bg",
+          "bgValue": "#0a1614",
+          "min": 3,
+          "ratio": 12.25,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ]
+    },
+    "launch": {
+      "light": [
+        {
+          "fg": "--text",
+          "fgValue": "#1b1712",
+          "bg": "--bg",
+          "bgValue": "#fffdf8",
+          "min": 4.5,
+          "ratio": 17.53,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#1b1712",
+          "bg": "--surface",
+          "bgValue": "#f6f2ea",
+          "min": 4.5,
+          "ratio": 15.96,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#1b1712",
+          "bg": "--surface-2",
+          "bgValue": "#ebe5d8",
+          "min": 4.5,
+          "ratio": 14.2,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#1b1712",
+          "bg": "--accent-soft",
+          "bgValue": "#fdecc8",
+          "min": 4.5,
+          "ratio": 15.28,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#5a5246",
+          "bg": "--bg",
+          "bgValue": "#fffdf8",
+          "min": 4.5,
+          "ratio": 7.56,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#5a5246",
+          "bg": "--surface",
+          "bgValue": "#f6f2ea",
+          "min": 4.5,
+          "ratio": 6.88,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#5a5246",
+          "bg": "--surface-2",
+          "bgValue": "#ebe5d8",
+          "min": 4.5,
+          "ratio": 6.12,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#9a3f00",
+          "bg": "--bg",
+          "bgValue": "#fffdf8",
+          "min": 4.5,
+          "ratio": 6.69,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#9a3f00",
+          "bg": "--surface",
+          "bgValue": "#f6f2ea",
+          "min": 4.5,
+          "ratio": 6.09,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#9a3f00",
+          "bg": "--surface-2",
+          "bgValue": "#ebe5d8",
+          "min": 4.5,
+          "ratio": 5.42,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#9a3f00",
+          "bg": "--accent-soft",
+          "bgValue": "#fdecc8",
+          "min": 3,
+          "ratio": 5.83,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#ffffff",
+          "bg": "--accent",
+          "bgValue": "#b45309",
+          "min": 4.5,
+          "ratio": 5.02,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#f5f3ee",
+          "bg": "--hero-bg",
+          "bgValue": "#0b0b10",
+          "min": 4.5,
+          "ratio": 17.7,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#bdb8ab",
+          "bg": "--hero-bg",
+          "bgValue": "#0b0b10",
+          "min": 4.5,
+          "ratio": 9.91,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#b45309",
+          "bg": "--hero-bg",
+          "bgValue": "#0b0b10",
+          "min": 3,
+          "ratio": 3.9,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#1b1712",
+          "bg": "--footer-bg",
+          "bgValue": "#ebe5d8",
+          "min": 4.5,
+          "ratio": 14.2,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#5a5246",
+          "bg": "--footer-bg",
+          "bgValue": "#ebe5d8",
+          "min": 4.5,
+          "ratio": 6.12,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--surface",
+          "bgValue": "#f6f2ea",
+          "min": 4.5,
+          "ratio": 5.85,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--bg",
+          "bgValue": "#fffdf8",
+          "min": 4.5,
+          "ratio": 6.42,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#1b6b3a",
+          "bg": "--surface-2",
+          "bgValue": "#ebe5d8",
+          "min": 3,
+          "ratio": 5.21,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#7a7062",
+          "bg": "--bg",
+          "bgValue": "#fffdf8",
+          "min": 3,
+          "ratio": 4.78,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#7a7062",
+          "bg": "--surface",
+          "bgValue": "#f6f2ea",
+          "min": 3,
+          "ratio": 4.35,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#2563eb",
+          "bg": "--bg",
+          "bgValue": "#fffdf8",
+          "min": 3,
+          "ratio": 5.08,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#2563eb",
+          "bg": "--surface",
+          "bgValue": "#f6f2ea",
+          "min": 3,
+          "ratio": 4.62,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#2563eb",
+          "bg": "--surface-2",
+          "bgValue": "#ebe5d8",
+          "min": 3,
+          "ratio": 4.11,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#2563eb",
+          "bg": "--accent-soft",
+          "bgValue": "#fdecc8",
+          "min": 3,
+          "ratio": 4.43,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#2563eb",
+          "bg": "--hero-bg",
+          "bgValue": "#0b0b10",
+          "min": 3,
+          "ratio": 3.79,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#2563eb",
+          "bg": "--footer-bg",
+          "bgValue": "#ebe5d8",
+          "min": 3,
+          "ratio": 4.11,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#9a3f00",
+          "bg": "--bg",
+          "bgValue": "#fffdf8",
+          "min": 3,
+          "ratio": 6.69,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ],
+      "dark": [
+        {
+          "fg": "--text",
+          "fgValue": "#f3efe6",
+          "bg": "--bg",
+          "bgValue": "#0f0e0c",
+          "min": 4.5,
+          "ratio": 16.81,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#f3efe6",
+          "bg": "--surface",
+          "bgValue": "#191714",
+          "min": 4.5,
+          "ratio": 15.58,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#f3efe6",
+          "bg": "--surface-2",
+          "bgValue": "#25221d",
+          "min": 4.5,
+          "ratio": 13.8,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#f3efe6",
+          "bg": "--accent-soft",
+          "bgValue": "#3a2c0a",
+          "min": 4.5,
+          "ratio": 11.84,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#b9b2a3",
+          "bg": "--bg",
+          "bgValue": "#0f0e0c",
+          "min": 4.5,
+          "ratio": 9.15,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#b9b2a3",
+          "bg": "--surface",
+          "bgValue": "#191714",
+          "min": 4.5,
+          "ratio": 8.48,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#b9b2a3",
+          "bg": "--surface-2",
+          "bgValue": "#25221d",
+          "min": 4.5,
+          "ratio": 7.51,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#fbbf24",
+          "bg": "--bg",
+          "bgValue": "#0f0e0c",
+          "min": 4.5,
+          "ratio": 11.55,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#fbbf24",
+          "bg": "--surface",
+          "bgValue": "#191714",
+          "min": 4.5,
+          "ratio": 10.71,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#fbbf24",
+          "bg": "--surface-2",
+          "bgValue": "#25221d",
+          "min": 4.5,
+          "ratio": 9.49,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#fbbf24",
+          "bg": "--accent-soft",
+          "bgValue": "#3a2c0a",
+          "min": 3,
+          "ratio": 8.14,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#1a1200",
+          "bg": "--accent",
+          "bgValue": "#fbbf24",
+          "min": 4.5,
+          "ratio": 11.12,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#f5f3ee",
+          "bg": "--hero-bg",
+          "bgValue": "#0b0b10",
+          "min": 4.5,
+          "ratio": 17.7,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#bdb8ab",
+          "bg": "--hero-bg",
+          "bgValue": "#0b0b10",
+          "min": 4.5,
+          "ratio": 9.91,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#fbbf24",
+          "bg": "--hero-bg",
+          "bgValue": "#0b0b10",
+          "min": 3,
+          "ratio": 11.76,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#f3efe6",
+          "bg": "--footer-bg",
+          "bgValue": "#25221d",
+          "min": 4.5,
+          "ratio": 13.8,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#b9b2a3",
+          "bg": "--footer-bg",
+          "bgValue": "#25221d",
+          "min": 4.5,
+          "ratio": 7.51,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--surface",
+          "bgValue": "#191714",
+          "min": 4.5,
+          "ratio": 7.83,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--bg",
+          "bgValue": "#0f0e0c",
+          "min": 4.5,
+          "ratio": 8.45,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#6fd49a",
+          "bg": "--surface-2",
+          "bgValue": "#25221d",
+          "min": 3,
+          "ratio": 8.72,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#958b79",
+          "bg": "--bg",
+          "bgValue": "#0f0e0c",
+          "min": 3,
+          "ratio": 5.73,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#958b79",
+          "bg": "--surface",
+          "bgValue": "#191714",
+          "min": 3,
+          "ratio": 5.32,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#93c5fd",
+          "bg": "--bg",
+          "bgValue": "#0f0e0c",
+          "min": 3,
+          "ratio": 10.69,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#93c5fd",
+          "bg": "--surface",
+          "bgValue": "#191714",
+          "min": 3,
+          "ratio": 9.91,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#93c5fd",
+          "bg": "--surface-2",
+          "bgValue": "#25221d",
+          "min": 3,
+          "ratio": 8.78,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#93c5fd",
+          "bg": "--accent-soft",
+          "bgValue": "#3a2c0a",
+          "min": 3,
+          "ratio": 7.53,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#93c5fd",
+          "bg": "--hero-bg",
+          "bgValue": "#0b0b10",
+          "min": 3,
+          "ratio": 10.88,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#93c5fd",
+          "bg": "--footer-bg",
+          "bgValue": "#25221d",
+          "min": 3,
+          "ratio": 8.78,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#fbbf24",
+          "bg": "--bg",
+          "bgValue": "#0f0e0c",
+          "min": 3,
+          "ratio": 11.55,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ]
+    },
+    "event": {
+      "light": [
+        {
+          "fg": "--text",
+          "fgValue": "#1a0b14",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 19.05,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#1a0b14",
+          "bg": "--surface",
+          "bgValue": "#fff4f9",
+          "min": 4.5,
+          "ratio": 17.75,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#1a0b14",
+          "bg": "--surface-2",
+          "bgValue": "#ffe1ee",
+          "min": 4.5,
+          "ratio": 15.66,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#1a0b14",
+          "bg": "--accent-soft",
+          "bgValue": "#ffe1ee",
+          "min": 4.5,
+          "ratio": 15.66,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#5c3a4c",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 9.7,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#5c3a4c",
+          "bg": "--surface",
+          "bgValue": "#fff4f9",
+          "min": 4.5,
+          "ratio": 9.03,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#5c3a4c",
+          "bg": "--surface-2",
+          "bgValue": "#ffe1ee",
+          "min": 4.5,
+          "ratio": 7.97,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#b00f6f",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 6.67,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#b00f6f",
+          "bg": "--surface",
+          "bgValue": "#fff4f9",
+          "min": 4.5,
+          "ratio": 6.22,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#b00f6f",
+          "bg": "--surface-2",
+          "bgValue": "#ffe1ee",
+          "min": 4.5,
+          "ratio": 5.48,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#b00f6f",
+          "bg": "--accent-soft",
+          "bgValue": "#ffe1ee",
+          "min": 3,
+          "ratio": 5.48,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#ffffff",
+          "bg": "--accent",
+          "bgValue": "#c0127a",
+          "min": 4.5,
+          "ratio": 5.81,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#1a0b14",
+          "bg": "--hero-bg",
+          "bgValue": "#ffe1ee",
+          "min": 4.5,
+          "ratio": 15.66,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#5c3a4c",
+          "bg": "--hero-bg",
+          "bgValue": "#ffe1ee",
+          "min": 4.5,
+          "ratio": 7.97,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#c0127a",
+          "bg": "--hero-bg",
+          "bgValue": "#ffe1ee",
+          "min": 3,
+          "ratio": 4.78,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#1a0b14",
+          "bg": "--footer-bg",
+          "bgValue": "#ffe1ee",
+          "min": 4.5,
+          "ratio": 15.66,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#5c3a4c",
+          "bg": "--footer-bg",
+          "bgValue": "#ffe1ee",
+          "min": 4.5,
+          "ratio": 7.97,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--surface",
+          "bgValue": "#fff4f9",
+          "min": 4.5,
+          "ratio": 6.08,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 6.53,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#1b6b3a",
+          "bg": "--surface-2",
+          "bgValue": "#ffe1ee",
+          "min": 3,
+          "ratio": 5.37,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#7d5468",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 6.28,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#7d5468",
+          "bg": "--surface",
+          "bgValue": "#fff4f9",
+          "min": 3,
+          "ratio": 5.85,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 6.7,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--surface",
+          "bgValue": "#fff4f9",
+          "min": 3,
+          "ratio": 6.24,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--surface-2",
+          "bgValue": "#ffe1ee",
+          "min": 3,
+          "ratio": 5.5,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--accent-soft",
+          "bgValue": "#ffe1ee",
+          "min": 3,
+          "ratio": 5.5,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--hero-bg",
+          "bgValue": "#ffe1ee",
+          "min": 3,
+          "ratio": 5.5,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--footer-bg",
+          "bgValue": "#ffe1ee",
+          "min": 3,
+          "ratio": 5.5,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#b00f6f",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 6.67,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ],
+      "dark": [
+        {
+          "fg": "--text",
+          "fgValue": "#fdeef6",
+          "bg": "--bg",
+          "bgValue": "#14080f",
+          "min": 4.5,
+          "ratio": 17.48,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#fdeef6",
+          "bg": "--surface",
+          "bgValue": "#1e0f18",
+          "min": 4.5,
+          "ratio": 16.48,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#fdeef6",
+          "bg": "--surface-2",
+          "bgValue": "#2c1424",
+          "min": 4.5,
+          "ratio": 15.2,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#fdeef6",
+          "bg": "--accent-soft",
+          "bgValue": "#3a1228",
+          "min": 4.5,
+          "ratio": 14.44,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#d7b3c6",
+          "bg": "--bg",
+          "bgValue": "#14080f",
+          "min": 4.5,
+          "ratio": 10.4,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#d7b3c6",
+          "bg": "--surface",
+          "bgValue": "#1e0f18",
+          "min": 4.5,
+          "ratio": 9.81,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#d7b3c6",
+          "bg": "--surface-2",
+          "bgValue": "#2c1424",
+          "min": 4.5,
+          "ratio": 9.04,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#ff7cc0",
+          "bg": "--bg",
+          "bgValue": "#14080f",
+          "min": 4.5,
+          "ratio": 8.3,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#ff7cc0",
+          "bg": "--surface",
+          "bgValue": "#1e0f18",
+          "min": 4.5,
+          "ratio": 7.82,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#ff7cc0",
+          "bg": "--surface-2",
+          "bgValue": "#2c1424",
+          "min": 4.5,
+          "ratio": 7.21,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#ff7cc0",
+          "bg": "--accent-soft",
+          "bgValue": "#3a1228",
+          "min": 3,
+          "ratio": 6.85,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#1a0010",
+          "bg": "--accent",
+          "bgValue": "#ff5cb0",
+          "min": 4.5,
+          "ratio": 7.04,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#fdeef6",
+          "bg": "--hero-bg",
+          "bgValue": "#2c1424",
+          "min": 4.5,
+          "ratio": 15.2,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#d7b3c6",
+          "bg": "--hero-bg",
+          "bgValue": "#2c1424",
+          "min": 4.5,
+          "ratio": 9.04,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#ff5cb0",
+          "bg": "--hero-bg",
+          "bgValue": "#2c1424",
+          "min": 3,
+          "ratio": 6.01,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#fdeef6",
+          "bg": "--footer-bg",
+          "bgValue": "#2c1424",
+          "min": 4.5,
+          "ratio": 15.2,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#d7b3c6",
+          "bg": "--footer-bg",
+          "bgValue": "#2c1424",
+          "min": 4.5,
+          "ratio": 9.04,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--surface",
+          "bgValue": "#1e0f18",
+          "min": 4.5,
+          "ratio": 8.09,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--bg",
+          "bgValue": "#14080f",
+          "min": 4.5,
+          "ratio": 8.58,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#6fd49a",
+          "bg": "--surface-2",
+          "bgValue": "#2c1424",
+          "min": 3,
+          "ratio": 9.37,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#b88aa3",
+          "bg": "--bg",
+          "bgValue": "#14080f",
+          "min": 3,
+          "ratio": 6.72,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#b88aa3",
+          "bg": "--surface",
+          "bgValue": "#1e0f18",
+          "min": 3,
+          "ratio": 6.33,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#8ab4ff",
+          "bg": "--bg",
+          "bgValue": "#14080f",
+          "min": 3,
+          "ratio": 9.38,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#8ab4ff",
+          "bg": "--surface",
+          "bgValue": "#1e0f18",
+          "min": 3,
+          "ratio": 8.84,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#8ab4ff",
+          "bg": "--surface-2",
+          "bgValue": "#2c1424",
+          "min": 3,
+          "ratio": 8.15,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#8ab4ff",
+          "bg": "--accent-soft",
+          "bgValue": "#3a1228",
+          "min": 3,
+          "ratio": 7.75,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#8ab4ff",
+          "bg": "--hero-bg",
+          "bgValue": "#2c1424",
+          "min": 3,
+          "ratio": 8.15,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#8ab4ff",
+          "bg": "--footer-bg",
+          "bgValue": "#2c1424",
+          "min": 3,
+          "ratio": 8.15,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#ff7cc0",
+          "bg": "--bg",
+          "bgValue": "#14080f",
+          "min": 3,
+          "ratio": 8.3,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ]
+    },
+    "waitlist": {
+      "light": [
+        {
+          "fg": "--text",
+          "fgValue": "#14170c",
+          "bg": "--bg",
+          "bgValue": "#fbfbf7",
+          "min": 4.5,
+          "ratio": 17.48,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#14170c",
+          "bg": "--surface",
+          "bgValue": "#f1f1e8",
+          "min": 4.5,
+          "ratio": 15.97,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#14170c",
+          "bg": "--surface-2",
+          "bgValue": "#e5e6d6",
+          "min": 4.5,
+          "ratio": 14.35,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#14170c",
+          "bg": "--accent-soft",
+          "bgValue": "#e2f5a8",
+          "min": 4.5,
+          "ratio": 15.42,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#4b5238",
+          "bg": "--bg",
+          "bgValue": "#fbfbf7",
+          "min": 4.5,
+          "ratio": 7.89,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#4b5238",
+          "bg": "--surface",
+          "bgValue": "#f1f1e8",
+          "min": 4.5,
+          "ratio": 7.21,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#4b5238",
+          "bg": "--surface-2",
+          "bgValue": "#e5e6d6",
+          "min": 4.5,
+          "ratio": 6.48,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#2d4a00",
+          "bg": "--bg",
+          "bgValue": "#fbfbf7",
+          "min": 4.5,
+          "ratio": 9.68,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#2d4a00",
+          "bg": "--surface",
+          "bgValue": "#f1f1e8",
+          "min": 4.5,
+          "ratio": 8.84,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#2d4a00",
+          "bg": "--surface-2",
+          "bgValue": "#e5e6d6",
+          "min": 4.5,
+          "ratio": 7.94,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#2d4a00",
+          "bg": "--accent-soft",
+          "bgValue": "#e2f5a8",
+          "min": 3,
+          "ratio": 8.54,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#ffffff",
+          "bg": "--accent",
+          "bgValue": "#1c2208",
+          "min": 4.5,
+          "ratio": 16.38,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#14170c",
+          "bg": "--hero-bg",
+          "bgValue": "#fbfbf7",
+          "min": 4.5,
+          "ratio": 17.48,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#4b5238",
+          "bg": "--hero-bg",
+          "bgValue": "#fbfbf7",
+          "min": 4.5,
+          "ratio": 7.89,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#1c2208",
+          "bg": "--hero-bg",
+          "bgValue": "#fbfbf7",
+          "min": 3,
+          "ratio": 15.79,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#14170c",
+          "bg": "--footer-bg",
+          "bgValue": "#e5e6d6",
+          "min": 4.5,
+          "ratio": 14.35,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#4b5238",
+          "bg": "--footer-bg",
+          "bgValue": "#e5e6d6",
+          "min": 4.5,
+          "ratio": 6.48,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--surface",
+          "bgValue": "#f1f1e8",
+          "min": 4.5,
+          "ratio": 5.75,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--bg",
+          "bgValue": "#fbfbf7",
+          "min": 4.5,
+          "ratio": 6.3,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#1b6b3a",
+          "bg": "--surface-2",
+          "bgValue": "#e5e6d6",
+          "min": 3,
+          "ratio": 5.17,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#6a7156",
+          "bg": "--bg",
+          "bgValue": "#fbfbf7",
+          "min": 3,
+          "ratio": 4.92,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#6a7156",
+          "bg": "--surface",
+          "bgValue": "#f1f1e8",
+          "min": 3,
+          "ratio": 4.49,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--bg",
+          "bgValue": "#fbfbf7",
+          "min": 3,
+          "ratio": 6.46,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--surface",
+          "bgValue": "#f1f1e8",
+          "min": 3,
+          "ratio": 5.89,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--surface-2",
+          "bgValue": "#e5e6d6",
+          "min": 3,
+          "ratio": 5.3,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--accent-soft",
+          "bgValue": "#e2f5a8",
+          "min": 3,
+          "ratio": 5.69,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--hero-bg",
+          "bgValue": "#fbfbf7",
+          "min": 3,
+          "ratio": 6.46,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--footer-bg",
+          "bgValue": "#e5e6d6",
+          "min": 3,
+          "ratio": 5.3,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#2d4a00",
+          "bg": "--bg",
+          "bgValue": "#fbfbf7",
+          "min": 3,
+          "ratio": 9.68,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ],
+      "dark": [
+        {
+          "fg": "--text",
+          "fgValue": "#f1f5df",
+          "bg": "--bg",
+          "bgValue": "#0f1207",
+          "min": 4.5,
+          "ratio": 16.99,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#f1f5df",
+          "bg": "--surface",
+          "bgValue": "#181c0d",
+          "min": 4.5,
+          "ratio": 15.58,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#f1f5df",
+          "bg": "--surface-2",
+          "bgValue": "#232814",
+          "min": 4.5,
+          "ratio": 13.62,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#f1f5df",
+          "bg": "--accent-soft",
+          "bgValue": "#2a3610",
+          "min": 4.5,
+          "ratio": 11.54,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#b8c096",
+          "bg": "--bg",
+          "bgValue": "#0f1207",
+          "min": 4.5,
+          "ratio": 9.92,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#b8c096",
+          "bg": "--surface",
+          "bgValue": "#181c0d",
+          "min": 4.5,
+          "ratio": 9.1,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#b8c096",
+          "bg": "--surface-2",
+          "bgValue": "#232814",
+          "min": 4.5,
+          "ratio": 7.95,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#c6f432",
+          "bg": "--bg",
+          "bgValue": "#0f1207",
+          "min": 4.5,
+          "ratio": 14.76,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#c6f432",
+          "bg": "--surface",
+          "bgValue": "#181c0d",
+          "min": 4.5,
+          "ratio": 13.53,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#c6f432",
+          "bg": "--surface-2",
+          "bgValue": "#232814",
+          "min": 4.5,
+          "ratio": 11.83,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#c6f432",
+          "bg": "--accent-soft",
+          "bgValue": "#2a3610",
+          "min": 3,
+          "ratio": 10.03,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#131800",
+          "bg": "--accent",
+          "bgValue": "#c6f432",
+          "min": 4.5,
+          "ratio": 14.14,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#f1f5df",
+          "bg": "--hero-bg",
+          "bgValue": "#0f1207",
+          "min": 4.5,
+          "ratio": 16.99,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#b8c096",
+          "bg": "--hero-bg",
+          "bgValue": "#0f1207",
+          "min": 4.5,
+          "ratio": 9.92,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#c6f432",
+          "bg": "--hero-bg",
+          "bgValue": "#0f1207",
+          "min": 3,
+          "ratio": 14.76,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#f1f5df",
+          "bg": "--footer-bg",
+          "bgValue": "#232814",
+          "min": 4.5,
+          "ratio": 13.62,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#b8c096",
+          "bg": "--footer-bg",
+          "bgValue": "#232814",
+          "min": 4.5,
+          "ratio": 7.95,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--surface",
+          "bgValue": "#181c0d",
+          "min": 4.5,
+          "ratio": 7.59,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--bg",
+          "bgValue": "#0f1207",
+          "min": 4.5,
+          "ratio": 8.28,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#6fd49a",
+          "bg": "--surface-2",
+          "bgValue": "#232814",
+          "min": 3,
+          "ratio": 8.34,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#8e9a66",
+          "bg": "--bg",
+          "bgValue": "#0f1207",
+          "min": 3,
+          "ratio": 6.27,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#8e9a66",
+          "bg": "--surface",
+          "bgValue": "#181c0d",
+          "min": 3,
+          "ratio": 5.75,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--bg",
+          "bgValue": "#0f1207",
+          "min": 3,
+          "ratio": 9.37,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--surface",
+          "bgValue": "#181c0d",
+          "min": 3,
+          "ratio": 8.59,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--surface-2",
+          "bgValue": "#232814",
+          "min": 3,
+          "ratio": 7.51,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--accent-soft",
+          "bgValue": "#2a3610",
+          "min": 3,
+          "ratio": 6.37,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--hero-bg",
+          "bgValue": "#0f1207",
+          "min": 3,
+          "ratio": 9.37,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--footer-bg",
+          "bgValue": "#232814",
+          "min": 3,
+          "ratio": 7.51,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#c6f432",
+          "bg": "--bg",
+          "bgValue": "#0f1207",
+          "min": 3,
+          "ratio": 14.76,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ]
+    },
+    "webinar": {
+      "light": [
+        {
+          "fg": "--text",
+          "fgValue": "#0e1c2b",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 17.21,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#0e1c2b",
+          "bg": "--surface",
+          "bgValue": "#f1f6fb",
+          "min": 4.5,
+          "ratio": 15.83,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#0e1c2b",
+          "bg": "--surface-2",
+          "bgValue": "#e1ecf7",
+          "min": 4.5,
+          "ratio": 14.38,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#0e1c2b",
+          "bg": "--accent-soft",
+          "bgValue": "#dcecfb",
+          "min": 4.5,
+          "ratio": 14.29,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#435468",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 7.75,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#435468",
+          "bg": "--surface",
+          "bgValue": "#f1f6fb",
+          "min": 4.5,
+          "ratio": 7.13,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#435468",
+          "bg": "--surface-2",
+          "bgValue": "#e1ecf7",
+          "min": 4.5,
+          "ratio": 6.48,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#0b5cad",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 6.66,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#0b5cad",
+          "bg": "--surface",
+          "bgValue": "#f1f6fb",
+          "min": 4.5,
+          "ratio": 6.13,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#0b5cad",
+          "bg": "--surface-2",
+          "bgValue": "#e1ecf7",
+          "min": 4.5,
+          "ratio": 5.57,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#0b5cad",
+          "bg": "--accent-soft",
+          "bgValue": "#dcecfb",
+          "min": 3,
+          "ratio": 5.53,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#ffffff",
+          "bg": "--accent",
+          "bgValue": "#0b5cad",
+          "min": 4.5,
+          "ratio": 6.66,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#0e1c2b",
+          "bg": "--hero-bg",
+          "bgValue": "#f1f6fb",
+          "min": 4.5,
+          "ratio": 15.83,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#435468",
+          "bg": "--hero-bg",
+          "bgValue": "#f1f6fb",
+          "min": 4.5,
+          "ratio": 7.13,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#0b5cad",
+          "bg": "--hero-bg",
+          "bgValue": "#f1f6fb",
+          "min": 3,
+          "ratio": 6.13,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#0e1c2b",
+          "bg": "--footer-bg",
+          "bgValue": "#e1ecf7",
+          "min": 4.5,
+          "ratio": 14.38,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#435468",
+          "bg": "--footer-bg",
+          "bgValue": "#e1ecf7",
+          "min": 4.5,
+          "ratio": 6.48,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--surface",
+          "bgValue": "#f1f6fb",
+          "min": 4.5,
+          "ratio": 6.01,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 6.53,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#1b6b3a",
+          "bg": "--surface-2",
+          "bgValue": "#e1ecf7",
+          "min": 3,
+          "ratio": 5.46,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#5f7389",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 4.88,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#5f7389",
+          "bg": "--surface",
+          "bgValue": "#f1f6fb",
+          "min": 3,
+          "ratio": 4.49,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#c2410c",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 5.17,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#c2410c",
+          "bg": "--surface",
+          "bgValue": "#f1f6fb",
+          "min": 3,
+          "ratio": 4.76,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#c2410c",
+          "bg": "--surface-2",
+          "bgValue": "#e1ecf7",
+          "min": 3,
+          "ratio": 4.32,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#c2410c",
+          "bg": "--accent-soft",
+          "bgValue": "#dcecfb",
+          "min": 3,
+          "ratio": 4.29,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#c2410c",
+          "bg": "--hero-bg",
+          "bgValue": "#f1f6fb",
+          "min": 3,
+          "ratio": 4.76,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#c2410c",
+          "bg": "--footer-bg",
+          "bgValue": "#e1ecf7",
+          "min": 3,
+          "ratio": 4.32,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#0b5cad",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 6.66,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ],
+      "dark": [
+        {
+          "fg": "--text",
+          "fgValue": "#e8f1fb",
+          "bg": "--bg",
+          "bgValue": "#09131d",
+          "min": 4.5,
+          "ratio": 16.39,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#e8f1fb",
+          "bg": "--surface",
+          "bgValue": "#101e2d",
+          "min": 4.5,
+          "ratio": 14.77,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#e8f1fb",
+          "bg": "--surface-2",
+          "bgValue": "#172a3f",
+          "min": 4.5,
+          "ratio": 12.78,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#e8f1fb",
+          "bg": "--accent-soft",
+          "bgValue": "#12304d",
+          "min": 4.5,
+          "ratio": 11.83,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#a7bbd1",
+          "bg": "--bg",
+          "bgValue": "#09131d",
+          "min": 4.5,
+          "ratio": 9.5,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#a7bbd1",
+          "bg": "--surface",
+          "bgValue": "#101e2d",
+          "min": 4.5,
+          "ratio": 8.56,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#a7bbd1",
+          "bg": "--surface-2",
+          "bgValue": "#172a3f",
+          "min": 4.5,
+          "ratio": 7.41,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#8cc4ff",
+          "bg": "--bg",
+          "bgValue": "#09131d",
+          "min": 4.5,
+          "ratio": 10.2,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#8cc4ff",
+          "bg": "--surface",
+          "bgValue": "#101e2d",
+          "min": 4.5,
+          "ratio": 9.19,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#8cc4ff",
+          "bg": "--surface-2",
+          "bgValue": "#172a3f",
+          "min": 4.5,
+          "ratio": 7.95,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#8cc4ff",
+          "bg": "--accent-soft",
+          "bgValue": "#12304d",
+          "min": 3,
+          "ratio": 7.36,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#04121f",
+          "bg": "--accent",
+          "bgValue": "#5aa9f5",
+          "min": 4.5,
+          "ratio": 7.58,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#e8f1fb",
+          "bg": "--hero-bg",
+          "bgValue": "#101e2d",
+          "min": 4.5,
+          "ratio": 14.77,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#a7bbd1",
+          "bg": "--hero-bg",
+          "bgValue": "#101e2d",
+          "min": 4.5,
+          "ratio": 8.56,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#5aa9f5",
+          "bg": "--hero-bg",
+          "bgValue": "#101e2d",
+          "min": 3,
+          "ratio": 6.76,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#e8f1fb",
+          "bg": "--footer-bg",
+          "bgValue": "#172a3f",
+          "min": 4.5,
+          "ratio": 12.78,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#a7bbd1",
+          "bg": "--footer-bg",
+          "bgValue": "#172a3f",
+          "min": 4.5,
+          "ratio": 7.41,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--surface",
+          "bgValue": "#101e2d",
+          "min": 4.5,
+          "ratio": 7.38,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--bg",
+          "bgValue": "#09131d",
+          "min": 4.5,
+          "ratio": 8.19,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#6fd49a",
+          "bg": "--surface-2",
+          "bgValue": "#172a3f",
+          "min": 3,
+          "ratio": 8.03,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#7f9bb8",
+          "bg": "--bg",
+          "bgValue": "#09131d",
+          "min": 3,
+          "ratio": 6.48,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#7f9bb8",
+          "bg": "--surface",
+          "bgValue": "#101e2d",
+          "min": 3,
+          "ratio": 5.84,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#fbbf77",
+          "bg": "--bg",
+          "bgValue": "#09131d",
+          "min": 3,
+          "ratio": 11.42,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#fbbf77",
+          "bg": "--surface",
+          "bgValue": "#101e2d",
+          "min": 3,
+          "ratio": 10.29,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#fbbf77",
+          "bg": "--surface-2",
+          "bgValue": "#172a3f",
+          "min": 3,
+          "ratio": 8.9,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#fbbf77",
+          "bg": "--accent-soft",
+          "bgValue": "#12304d",
+          "min": 3,
+          "ratio": 8.24,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#fbbf77",
+          "bg": "--hero-bg",
+          "bgValue": "#101e2d",
+          "min": 3,
+          "ratio": 10.29,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#fbbf77",
+          "bg": "--footer-bg",
+          "bgValue": "#172a3f",
+          "min": 3,
+          "ratio": 8.9,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#8cc4ff",
+          "bg": "--bg",
+          "bgValue": "#09131d",
+          "min": 3,
+          "ratio": 10.2,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ]
+    },
+    "agency": {
+      "light": [
+        {
+          "fg": "--text",
+          "fgValue": "#1d1a14",
+          "bg": "--bg",
+          "bgValue": "#faf6ee",
+          "min": 4.5,
+          "ratio": 16.09,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#1d1a14",
+          "bg": "--surface",
+          "bgValue": "#f1eadb",
+          "min": 4.5,
+          "ratio": 14.48,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#1d1a14",
+          "bg": "--surface-2",
+          "bgValue": "#e6dcc7",
+          "min": 4.5,
+          "ratio": 12.74,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#1d1a14",
+          "bg": "--accent-soft",
+          "bgValue": "#f6dcc8",
+          "min": 4.5,
+          "ratio": 13.21,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#544c3e",
+          "bg": "--bg",
+          "bgValue": "#faf6ee",
+          "min": 4.5,
+          "ratio": 7.85,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#544c3e",
+          "bg": "--surface",
+          "bgValue": "#f1eadb",
+          "min": 4.5,
+          "ratio": 7.06,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#544c3e",
+          "bg": "--surface-2",
+          "bgValue": "#e6dcc7",
+          "min": 4.5,
+          "ratio": 6.21,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a63a08",
+          "bg": "--bg",
+          "bgValue": "#faf6ee",
+          "min": 4.5,
+          "ratio": 6.03,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a63a08",
+          "bg": "--surface",
+          "bgValue": "#f1eadb",
+          "min": 4.5,
+          "ratio": 5.42,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a63a08",
+          "bg": "--surface-2",
+          "bgValue": "#e6dcc7",
+          "min": 4.5,
+          "ratio": 4.77,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a63a08",
+          "bg": "--accent-soft",
+          "bgValue": "#f6dcc8",
+          "min": 3,
+          "ratio": 4.95,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#ffffff",
+          "bg": "--accent",
+          "bgValue": "#b8400a",
+          "min": 4.5,
+          "ratio": 5.56,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#1d1a14",
+          "bg": "--hero-bg",
+          "bgValue": "#faf6ee",
+          "min": 4.5,
+          "ratio": 16.09,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#544c3e",
+          "bg": "--hero-bg",
+          "bgValue": "#faf6ee",
+          "min": 4.5,
+          "ratio": 7.85,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#b8400a",
+          "bg": "--hero-bg",
+          "bgValue": "#faf6ee",
+          "min": 3,
+          "ratio": 5.15,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#1d1a14",
+          "bg": "--footer-bg",
+          "bgValue": "#e6dcc7",
+          "min": 4.5,
+          "ratio": 12.74,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#544c3e",
+          "bg": "--footer-bg",
+          "bgValue": "#e6dcc7",
+          "min": 4.5,
+          "ratio": 6.21,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--surface",
+          "bgValue": "#f1eadb",
+          "min": 4.5,
+          "ratio": 5.45,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--bg",
+          "bgValue": "#faf6ee",
+          "min": 4.5,
+          "ratio": 6.06,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#1b6b3a",
+          "bg": "--surface-2",
+          "bgValue": "#e6dcc7",
+          "min": 3,
+          "ratio": 4.8,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#756b58",
+          "bg": "--bg",
+          "bgValue": "#faf6ee",
+          "min": 3,
+          "ratio": 4.86,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#756b58",
+          "bg": "--surface",
+          "bgValue": "#f1eadb",
+          "min": 3,
+          "ratio": 4.38,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--bg",
+          "bgValue": "#faf6ee",
+          "min": 3,
+          "ratio": 6.21,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--surface",
+          "bgValue": "#f1eadb",
+          "min": 3,
+          "ratio": 5.59,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--surface-2",
+          "bgValue": "#e6dcc7",
+          "min": 3,
+          "ratio": 4.92,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--accent-soft",
+          "bgValue": "#f6dcc8",
+          "min": 3,
+          "ratio": 5.1,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--hero-bg",
+          "bgValue": "#faf6ee",
+          "min": 3,
+          "ratio": 6.21,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--footer-bg",
+          "bgValue": "#e6dcc7",
+          "min": 3,
+          "ratio": 4.92,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a63a08",
+          "bg": "--bg",
+          "bgValue": "#faf6ee",
+          "min": 3,
+          "ratio": 6.03,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ],
+      "dark": [
+        {
+          "fg": "--text",
+          "fgValue": "#f4ede0",
+          "bg": "--bg",
+          "bgValue": "#15120e",
+          "min": 4.5,
+          "ratio": 16.03,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#f4ede0",
+          "bg": "--surface",
+          "bgValue": "#1f1b15",
+          "min": 4.5,
+          "ratio": 14.71,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#f4ede0",
+          "bg": "--surface-2",
+          "bgValue": "#2b261d",
+          "min": 4.5,
+          "ratio": 12.9,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#f4ede0",
+          "bg": "--accent-soft",
+          "bgValue": "#3a2410",
+          "min": 4.5,
+          "ratio": 12.52,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#bfb3a0",
+          "bg": "--bg",
+          "bgValue": "#15120e",
+          "min": 4.5,
+          "ratio": 9.04,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#bfb3a0",
+          "bg": "--surface",
+          "bgValue": "#1f1b15",
+          "min": 4.5,
+          "ratio": 8.29,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#bfb3a0",
+          "bg": "--surface-2",
+          "bgValue": "#2b261d",
+          "min": 4.5,
+          "ratio": 7.27,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#fdae66",
+          "bg": "--bg",
+          "bgValue": "#15120e",
+          "min": 4.5,
+          "ratio": 10.15,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#fdae66",
+          "bg": "--surface",
+          "bgValue": "#1f1b15",
+          "min": 4.5,
+          "ratio": 9.31,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#fdae66",
+          "bg": "--surface-2",
+          "bgValue": "#2b261d",
+          "min": 4.5,
+          "ratio": 8.17,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#fdae66",
+          "bg": "--accent-soft",
+          "bgValue": "#3a2410",
+          "min": 3,
+          "ratio": 7.93,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#1a0c00",
+          "bg": "--accent",
+          "bgValue": "#fb923c",
+          "min": 4.5,
+          "ratio": 8.46,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#f4ede0",
+          "bg": "--hero-bg",
+          "bgValue": "#15120e",
+          "min": 4.5,
+          "ratio": 16.03,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#bfb3a0",
+          "bg": "--hero-bg",
+          "bgValue": "#15120e",
+          "min": 4.5,
+          "ratio": 9.04,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#fb923c",
+          "bg": "--hero-bg",
+          "bgValue": "#15120e",
+          "min": 3,
+          "ratio": 8.24,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#f4ede0",
+          "bg": "--footer-bg",
+          "bgValue": "#2b261d",
+          "min": 4.5,
+          "ratio": 12.9,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#bfb3a0",
+          "bg": "--footer-bg",
+          "bgValue": "#2b261d",
+          "min": 4.5,
+          "ratio": 7.27,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--surface",
+          "bgValue": "#1f1b15",
+          "min": 4.5,
+          "ratio": 7.5,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--bg",
+          "bgValue": "#15120e",
+          "min": 4.5,
+          "ratio": 8.17,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#6fd49a",
+          "bg": "--surface-2",
+          "bgValue": "#2b261d",
+          "min": 3,
+          "ratio": 8.27,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#9c8f78",
+          "bg": "--bg",
+          "bgValue": "#15120e",
+          "min": 3,
+          "ratio": 5.88,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#9c8f78",
+          "bg": "--surface",
+          "bgValue": "#1f1b15",
+          "min": 3,
+          "ratio": 5.39,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#93c5fd",
+          "bg": "--bg",
+          "bgValue": "#15120e",
+          "min": 3,
+          "ratio": 10.35,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#93c5fd",
+          "bg": "--surface",
+          "bgValue": "#1f1b15",
+          "min": 3,
+          "ratio": 9.49,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#93c5fd",
+          "bg": "--surface-2",
+          "bgValue": "#2b261d",
+          "min": 3,
+          "ratio": 8.33,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#93c5fd",
+          "bg": "--accent-soft",
+          "bgValue": "#3a2410",
+          "min": 3,
+          "ratio": 8.08,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#93c5fd",
+          "bg": "--hero-bg",
+          "bgValue": "#15120e",
+          "min": 3,
+          "ratio": 10.35,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#93c5fd",
+          "bg": "--footer-bg",
+          "bgValue": "#2b261d",
+          "min": 3,
+          "ratio": 8.33,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#fdae66",
+          "bg": "--bg",
+          "bgValue": "#15120e",
+          "min": 3,
+          "ratio": 10.15,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ]
+    },
+    "pricing": {
+      "light": [
+        {
+          "fg": "--text",
+          "fgValue": "#17112b",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 18.23,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#17112b",
+          "bg": "--surface",
+          "bgValue": "#f6f4fd",
+          "min": 4.5,
+          "ratio": 16.74,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#17112b",
+          "bg": "--surface-2",
+          "bgValue": "#ebe7fa",
+          "min": 4.5,
+          "ratio": 15.06,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#17112b",
+          "bg": "--accent-soft",
+          "bgValue": "#efe9fe",
+          "min": 4.5,
+          "ratio": 15.42,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#4d4668",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 8.78,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#4d4668",
+          "bg": "--surface",
+          "bgValue": "#f6f4fd",
+          "min": 4.5,
+          "ratio": 8.06,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#4d4668",
+          "bg": "--surface-2",
+          "bgValue": "#ebe7fa",
+          "min": 4.5,
+          "ratio": 7.25,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#6d28d9",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 7.1,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#6d28d9",
+          "bg": "--surface",
+          "bgValue": "#f6f4fd",
+          "min": 4.5,
+          "ratio": 6.52,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#6d28d9",
+          "bg": "--surface-2",
+          "bgValue": "#ebe7fa",
+          "min": 4.5,
+          "ratio": 5.86,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#6d28d9",
+          "bg": "--accent-soft",
+          "bgValue": "#efe9fe",
+          "min": 3,
+          "ratio": 6,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#ffffff",
+          "bg": "--accent",
+          "bgValue": "#6d28d9",
+          "min": 4.5,
+          "ratio": 7.1,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#17112b",
+          "bg": "--hero-bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 18.23,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#4d4668",
+          "bg": "--hero-bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 8.78,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#6d28d9",
+          "bg": "--hero-bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 7.1,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#17112b",
+          "bg": "--footer-bg",
+          "bgValue": "#ebe7fa",
+          "min": 4.5,
+          "ratio": 15.06,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#4d4668",
+          "bg": "--footer-bg",
+          "bgValue": "#ebe7fa",
+          "min": 4.5,
+          "ratio": 7.25,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--surface",
+          "bgValue": "#f6f4fd",
+          "min": 4.5,
+          "ratio": 6,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 6.53,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#1b6b3a",
+          "bg": "--surface-2",
+          "bgValue": "#ebe7fa",
+          "min": 3,
+          "ratio": 5.4,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#6c6590",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 5.38,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#6c6590",
+          "bg": "--surface",
+          "bgValue": "#f6f4fd",
+          "min": 3,
+          "ratio": 4.94,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#c2410c",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 5.17,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#c2410c",
+          "bg": "--surface",
+          "bgValue": "#f6f4fd",
+          "min": 3,
+          "ratio": 4.75,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#c2410c",
+          "bg": "--surface-2",
+          "bgValue": "#ebe7fa",
+          "min": 3,
+          "ratio": 4.27,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#c2410c",
+          "bg": "--accent-soft",
+          "bgValue": "#efe9fe",
+          "min": 3,
+          "ratio": 4.37,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#c2410c",
+          "bg": "--hero-bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 5.17,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#c2410c",
+          "bg": "--footer-bg",
+          "bgValue": "#ebe7fa",
+          "min": 3,
+          "ratio": 4.27,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#6d28d9",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 7.1,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ],
+      "dark": [
+        {
+          "fg": "--text",
+          "fgValue": "#f0edfb",
+          "bg": "--bg",
+          "bgValue": "#0f0b1d",
+          "min": 4.5,
+          "ratio": 16.77,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#f0edfb",
+          "bg": "--surface",
+          "bgValue": "#171230",
+          "min": 4.5,
+          "ratio": 15.62,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#f0edfb",
+          "bg": "--surface-2",
+          "bgValue": "#211b42",
+          "min": 4.5,
+          "ratio": 14,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#f0edfb",
+          "bg": "--accent-soft",
+          "bgValue": "#2a1f55",
+          "min": 4.5,
+          "ratio": 12.77,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#b3abd1",
+          "bg": "--bg",
+          "bgValue": "#0f0b1d",
+          "min": 4.5,
+          "ratio": 8.89,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#b3abd1",
+          "bg": "--surface",
+          "bgValue": "#171230",
+          "min": 4.5,
+          "ratio": 8.28,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#b3abd1",
+          "bg": "--surface-2",
+          "bgValue": "#211b42",
+          "min": 4.5,
+          "ratio": 7.43,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#c4b5fd",
+          "bg": "--bg",
+          "bgValue": "#0f0b1d",
+          "min": 4.5,
+          "ratio": 10.47,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#c4b5fd",
+          "bg": "--surface",
+          "bgValue": "#171230",
+          "min": 4.5,
+          "ratio": 9.75,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#c4b5fd",
+          "bg": "--surface-2",
+          "bgValue": "#211b42",
+          "min": 4.5,
+          "ratio": 8.74,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#c4b5fd",
+          "bg": "--accent-soft",
+          "bgValue": "#2a1f55",
+          "min": 3,
+          "ratio": 7.97,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#12062b",
+          "bg": "--accent",
+          "bgValue": "#a78bfa",
+          "min": 4.5,
+          "ratio": 7.1,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#f0edfb",
+          "bg": "--hero-bg",
+          "bgValue": "#0f0b1d",
+          "min": 4.5,
+          "ratio": 16.77,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#b3abd1",
+          "bg": "--hero-bg",
+          "bgValue": "#0f0b1d",
+          "min": 4.5,
+          "ratio": 8.89,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#a78bfa",
+          "bg": "--hero-bg",
+          "bgValue": "#0f0b1d",
+          "min": 3,
+          "ratio": 7.1,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#f0edfb",
+          "bg": "--footer-bg",
+          "bgValue": "#211b42",
+          "min": 4.5,
+          "ratio": 14,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#b3abd1",
+          "bg": "--footer-bg",
+          "bgValue": "#211b42",
+          "min": 4.5,
+          "ratio": 7.43,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--surface",
+          "bgValue": "#171230",
+          "min": 4.5,
+          "ratio": 7.89,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--bg",
+          "bgValue": "#0f0b1d",
+          "min": 4.5,
+          "ratio": 8.47,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#6fd49a",
+          "bg": "--surface-2",
+          "bgValue": "#211b42",
+          "min": 3,
+          "ratio": 8.89,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#8e86b8",
+          "bg": "--bg",
+          "bgValue": "#0f0b1d",
+          "min": 3,
+          "ratio": 5.75,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#8e86b8",
+          "bg": "--surface",
+          "bgValue": "#171230",
+          "min": 3,
+          "ratio": 5.36,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#fbbf77",
+          "bg": "--bg",
+          "bgValue": "#0f0b1d",
+          "min": 3,
+          "ratio": 11.8,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#fbbf77",
+          "bg": "--surface",
+          "bgValue": "#171230",
+          "min": 3,
+          "ratio": 10.99,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#fbbf77",
+          "bg": "--surface-2",
+          "bgValue": "#211b42",
+          "min": 3,
+          "ratio": 9.86,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#fbbf77",
+          "bg": "--accent-soft",
+          "bgValue": "#2a1f55",
+          "min": 3,
+          "ratio": 8.99,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#fbbf77",
+          "bg": "--hero-bg",
+          "bgValue": "#0f0b1d",
+          "min": 3,
+          "ratio": 11.8,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#fbbf77",
+          "bg": "--footer-bg",
+          "bgValue": "#211b42",
+          "min": 3,
+          "ratio": 9.86,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#c4b5fd",
+          "bg": "--bg",
+          "bgValue": "#0f0b1d",
+          "min": 3,
+          "ratio": 10.47,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ]
+    },
+    "index": {
+      "light": [
+        {
+          "fg": "--text",
+          "fgValue": "#10172a",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 17.82,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#10172a",
+          "bg": "--surface",
+          "bgValue": "#f4f6fa",
+          "min": 4.5,
+          "ratio": 16.47,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#10172a",
+          "bg": "--surface-2",
+          "bgValue": "#e8ecf3",
+          "min": 4.5,
+          "ratio": 15.04,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#10172a",
+          "bg": "--accent-soft",
+          "bgValue": "#eceafd",
+          "min": 4.5,
+          "ratio": 15.07,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#4a5470",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 7.51,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#4a5470",
+          "bg": "--surface",
+          "bgValue": "#f4f6fa",
+          "min": 4.5,
+          "ratio": 6.94,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#4a5470",
+          "bg": "--surface-2",
+          "bgValue": "#e8ecf3",
+          "min": 4.5,
+          "ratio": 6.34,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#4338ca",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 7.9,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#4338ca",
+          "bg": "--surface",
+          "bgValue": "#f4f6fa",
+          "min": 4.5,
+          "ratio": 7.3,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#4338ca",
+          "bg": "--surface-2",
+          "bgValue": "#e8ecf3",
+          "min": 4.5,
+          "ratio": 6.67,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#4338ca",
+          "bg": "--accent-soft",
+          "bgValue": "#eceafd",
+          "min": 3,
+          "ratio": 6.68,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#ffffff",
+          "bg": "--accent",
+          "bgValue": "#4338ca",
+          "min": 4.5,
+          "ratio": 7.9,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#10172a",
+          "bg": "--hero-bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 17.82,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#4a5470",
+          "bg": "--hero-bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 7.51,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#4338ca",
+          "bg": "--hero-bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 7.9,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#10172a",
+          "bg": "--footer-bg",
+          "bgValue": "#e8ecf3",
+          "min": 4.5,
+          "ratio": 15.04,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#4a5470",
+          "bg": "--footer-bg",
+          "bgValue": "#e8ecf3",
+          "min": 4.5,
+          "ratio": 6.34,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--surface",
+          "bgValue": "#f4f6fa",
+          "min": 4.5,
+          "ratio": 6.04,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#b3261e",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 4.5,
+          "ratio": 6.53,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#1b6b3a",
+          "bg": "--surface-2",
+          "bgValue": "#e8ecf3",
+          "min": 3,
+          "ratio": 5.52,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#68718d",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 4.84,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#68718d",
+          "bg": "--surface",
+          "bgValue": "#f4f6fa",
+          "min": 3,
+          "ratio": 4.47,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 6.7,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--surface",
+          "bgValue": "#f4f6fa",
+          "min": 3,
+          "ratio": 6.19,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--surface-2",
+          "bgValue": "#e8ecf3",
+          "min": 3,
+          "ratio": 5.65,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--accent-soft",
+          "bgValue": "#eceafd",
+          "min": 3,
+          "ratio": 5.66,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--hero-bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 6.7,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#1d4ed8",
+          "bg": "--footer-bg",
+          "bgValue": "#e8ecf3",
+          "min": 3,
+          "ratio": 5.65,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#4338ca",
+          "bg": "--bg",
+          "bgValue": "#ffffff",
+          "min": 3,
+          "ratio": 7.9,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ],
+      "dark": [
+        {
+          "fg": "--text",
+          "fgValue": "#eef1fa",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 4.5,
+          "ratio": 16.53,
+          "pass": true,
+          "use": "body text on page"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#eef1fa",
+          "bg": "--surface",
+          "bgValue": "#151c30",
+          "min": 4.5,
+          "ratio": 14.99,
+          "pass": true,
+          "use": "text on cards and sections"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#eef1fa",
+          "bg": "--surface-2",
+          "bgValue": "#1e2740",
+          "min": 4.5,
+          "ratio": 13.1,
+          "pass": true,
+          "use": "text on footer, table headers, form status"
+        },
+        {
+          "fg": "--text",
+          "fgValue": "#eef1fa",
+          "bg": "--accent-soft",
+          "bgValue": "#1f2350",
+          "min": 4.5,
+          "ratio": 13.14,
+          "pass": true,
+          "use": "text on tinted bands, eyebrow, signup section"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#a9b3cf",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 4.5,
+          "ratio": 8.92,
+          "pass": true,
+          "use": "secondary text on page"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#a9b3cf",
+          "bg": "--surface",
+          "bgValue": "#151c30",
+          "min": 4.5,
+          "ratio": 8.08,
+          "pass": true,
+          "use": "secondary text on cards"
+        },
+        {
+          "fg": "--text-muted",
+          "fgValue": "#a9b3cf",
+          "bg": "--surface-2",
+          "bgValue": "#1e2740",
+          "min": 4.5,
+          "ratio": 7.07,
+          "pass": true,
+          "use": "secondary text on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a9adff",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 4.5,
+          "ratio": 8.98,
+          "pass": true,
+          "use": "links and accent text on page"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a9adff",
+          "bg": "--surface",
+          "bgValue": "#151c30",
+          "min": 4.5,
+          "ratio": 8.14,
+          "pass": true,
+          "use": "links and accent text on cards"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a9adff",
+          "bg": "--surface-2",
+          "bgValue": "#1e2740",
+          "min": 4.5,
+          "ratio": 7.12,
+          "pass": true,
+          "use": "links on tinted surfaces"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a9adff",
+          "bg": "--accent-soft",
+          "bgValue": "#1f2350",
+          "min": 3,
+          "ratio": 7.14,
+          "pass": true,
+          "use": "icons on tinted tiles (graphical object)"
+        },
+        {
+          "fg": "--accent-ink",
+          "fgValue": "#0d1220",
+          "bg": "--accent",
+          "bgValue": "#8f94ff",
+          "min": 4.5,
+          "ratio": 6.97,
+          "pass": true,
+          "use": "button and badge labels"
+        },
+        {
+          "fg": "--hero-text",
+          "fgValue": "#eef1fa",
+          "bg": "--hero-bg",
+          "bgValue": "#0d1220",
+          "min": 4.5,
+          "ratio": 16.53,
+          "pass": true,
+          "use": "hero headline and links"
+        },
+        {
+          "fg": "--hero-muted",
+          "fgValue": "#a9b3cf",
+          "bg": "--hero-bg",
+          "bgValue": "#0d1220",
+          "min": 4.5,
+          "ratio": 8.92,
+          "pass": true,
+          "use": "hero supporting text"
+        },
+        {
+          "fg": "--accent",
+          "fgValue": "#8f94ff",
+          "bg": "--hero-bg",
+          "bgValue": "#0d1220",
+          "min": 3,
+          "ratio": 6.97,
+          "pass": true,
+          "use": "primary button edge on hero (non-text)"
+        },
+        {
+          "fg": "--footer-text",
+          "fgValue": "#eef1fa",
+          "bg": "--footer-bg",
+          "bgValue": "#1e2740",
+          "min": 4.5,
+          "ratio": 13.1,
+          "pass": true,
+          "use": "footer text and links"
+        },
+        {
+          "fg": "--footer-muted",
+          "fgValue": "#a9b3cf",
+          "bg": "--footer-bg",
+          "bgValue": "#1e2740",
+          "min": 4.5,
+          "ratio": 7.07,
+          "pass": true,
+          "use": "footer legal line"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--surface",
+          "bgValue": "#151c30",
+          "min": 4.5,
+          "ratio": 7.41,
+          "pass": true,
+          "use": "error text on form cards"
+        },
+        {
+          "fg": "--danger",
+          "fgValue": "#ff8a80",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 4.5,
+          "ratio": 8.18,
+          "pass": true,
+          "use": "error text on page"
+        },
+        {
+          "fg": "--success",
+          "fgValue": "#6fd49a",
+          "bg": "--surface-2",
+          "bgValue": "#1e2740",
+          "min": 3,
+          "ratio": 8.14,
+          "pass": true,
+          "use": "success marker on form status (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#8190b8",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 3,
+          "ratio": 5.88,
+          "pass": true,
+          "use": "form control border on page (non-text)"
+        },
+        {
+          "fg": "--input-border",
+          "fgValue": "#8190b8",
+          "bg": "--surface",
+          "bgValue": "#151c30",
+          "min": 3,
+          "ratio": 5.33,
+          "pass": true,
+          "use": "form control border on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 3,
+          "ratio": 9.25,
+          "pass": true,
+          "use": "focus ring on page (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--surface",
+          "bgValue": "#151c30",
+          "min": 3,
+          "ratio": 8.38,
+          "pass": true,
+          "use": "focus ring on cards (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--surface-2",
+          "bgValue": "#1e2740",
+          "min": 3,
+          "ratio": 7.33,
+          "pass": true,
+          "use": "focus ring on tinted surfaces (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--accent-soft",
+          "bgValue": "#1f2350",
+          "min": 3,
+          "ratio": 7.35,
+          "pass": true,
+          "use": "focus ring on signup section (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--hero-bg",
+          "bgValue": "#0d1220",
+          "min": 3,
+          "ratio": 9.25,
+          "pass": true,
+          "use": "focus ring on hero (non-text)"
+        },
+        {
+          "fg": "--focus",
+          "fgValue": "#9db4ff",
+          "bg": "--footer-bg",
+          "bgValue": "#1e2740",
+          "min": 3,
+          "ratio": 7.33,
+          "pass": true,
+          "use": "focus ring on footer (non-text)"
+        },
+        {
+          "fg": "--accent-text",
+          "fgValue": "#a9adff",
+          "bg": "--bg",
+          "bgValue": "#0d1220",
+          "min": 3,
+          "ratio": 8.98,
+          "pass": true,
+          "use": "accent border of the featured plan (non-text)"
+        }
+      ]
+    }
+  }
+}
